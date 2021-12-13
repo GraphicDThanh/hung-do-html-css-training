@@ -17,21 +17,56 @@
 					name="text"
 					required
 					placeholder="Text input"
-				/>
-			</p>
-			<p>Email <input type="email" name="email" required /></p>
-			<p>Password <input type="password" name="password" required /></p>
-			<p>Website <input type="url" name="website" /></p>
-			<p>
-				Search
-				<input type="search" name="search" placeholder="Enter anything" />
-			</p>
-			<p>
-				Text Area
-				<textarea name="example-textarea" id="" cols="40" rows="5">
-This is text area</textarea
 				>
 			</p>
+
+			<p>
+				Email 
+				<input 
+				type="email" 
+				name="email" 
+				required 
+				>
+			</p>
+
+			<p>
+				Password 
+				<input 
+				type="password" 
+				name="password" 
+				required 
+				>
+			</p>
+
+			<p>
+				Website 
+				<input 
+				type="url" 
+				name="website" 
+				>
+			</p>
+
+			<p>
+				Search
+				<input 
+				type="search" 
+				name="search" 
+				placeholder="Enter anything" 
+				>
+			</p>
+
+			<p>
+				Text Area
+				<textarea 
+				name="example-textarea" 
+				id="" 
+				cols="40" 
+				rows="5"
+				>
+				This is text area
+				</textarea>
+			</p>
+			
 			<fieldset>
 				<legend>Fieldset</legend>
 				<p>
@@ -42,19 +77,28 @@ This is text area</textarea
 						name="gender"
 						checked="checked"
 						value="male"
-					/><label for="male-gender">Male</label>
+					>
+					<label for="male-gender">
+						Male
+					</label>
 					<input
 						type="radio"
 						id="female-gender"
 						name="gender"
 						value="female"
-					/><label for="female-gender">Female</label>
+					>
+					<label for="female-gender">
+						Female
+					</label>
 					<input
 						type="radio"
 						id="other-gender"
 						name="gender"
 						value="other"
-					/><label for="other-gender">Other</label>
+					>
+					<label for="other-gender">
+						Other
+					</label>
 				</p>
 
 				<p>
@@ -64,21 +108,31 @@ This is text area</textarea
 						id="option-1"
 						name="checkbox-1"
 						value="option-1"
-					/><label for="option-1">Option 1</label>
+					>
+					<label for="option-1">
+						Option 1
+					</label>
 					<input
 						type="checkbox"
 						id="option-2"
 						name="checkbox-1"
 						value="option-2"
-					/><label for="option-2">Option 2</label>
+					>
+					<label for="option-2">
+						Option 2
+					</label>
 					<input
 						type="checkbox"
 						id="option-3"
 						name="checkbox-1"
 						value="option-3"
-					/><label for="option-3">Option 3</label>
+					>
+					<label for="option-3">
+						Option 3
+					</label>
 				</p>
 			</fieldset>
+
 			<p>
 				Drop down list box
 				<select name="date" id="">
@@ -135,50 +189,54 @@ This is text area</textarea
 					title="danger"
 					width="30"
 					height="30"
-				/>
+				>
 			</p>
 		</form>
+
 		<hr />
+
 		<form action="" method="post">
 			<p>File input box</p>
-			<input type="file" />
-			<input type="submit" value="This is submit button" />
+			<input type="file" >
+			<input type="submit" value="This is submit button" 
+			>
 		</form>
+
 		<hr>
 		<!-- Example -->
 		<h2>Example</h2>
 		<form action="http://www.example.com/review.php" method="get">
 			<fieldset>
-			<legend>
-			Your Details:
-			</legend>
-			<label>
-			Name:
-			<input type="text" name="name" size="30" maxlength="100">
-			</label>
-			<br />
-			<label>
-			Email:
-			<input type="email" name="email" size="30" maxlength="100">
-			</label>
-			<br />
+				<legend>
+					Your Details:
+				</legend>
+				<label>
+					Name:
+				<input type="text" name="name" size="30" maxlength="100">
+				</label>
+				<br />
+				<label>
+					Email:
+				<input type="email" name="email" size="30" maxlength="100">
+				</label>
+				<br />
 			</fieldset>
 			<br />
 			<fieldset>
-			<legend>
-			Your Review:
-			</legend>
-			<p>
-			<label for="hear-about">
-			How did you hear about us?
-			</label>
-			<select name="referrer" id="hear-about">
-			<option value="google">Google</option>
-			<option value="friend">Friend</option>
-			<option value="advert">Advert</option>
-			<option value="other">Other</option>
-			</select>
+				<legend>
+					Your Review:
+				</legend>
+				<p>
+				<label for="hear-about">
+					How did you hear about us?
+				</label>
+				<select name="referrer" id="hear-about">
+					<option value="google">Google</option>
+					<option value="friend">Friend</option>
+					<option value="advert">Advert</option>
+					<option value="other">Other</option>
+				</select>
 			</p>
-			<p>
+
 	</body>
 </html>
