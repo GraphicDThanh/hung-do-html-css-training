@@ -4,32 +4,90 @@
 		<link rel="stylesheet" href="../styles/style.css">
   </head>
   <body>
-    This is body of page
     <!-- Heading have six level h1->h6 , h1 for main headings, h2 for sub headings, ... -->
+		<header>
+			<span><h1>Chapter 1: TEXT</h1></span>
+		</header>
+		<main>
+    	<!-- Paragraphs : a browser will show each paragraph on a new line with some space between it and any subsequent paragraphs -->
+			<h3 id="title-text-example">Text Examples:</h3>
+			<section class="text-example">
+				<div class="paragraph">
+					<h4>Text 1:</h4>
+					<p id="first-paragraph" >
+						A paragraph consists of one or more sentences that form a self-contained
+						unit of discourse. The start of a paragraph is indicated by a new line.
+					</p>
+				</div>
+				<div class="paragraph">
+					<h4>Text 2:</h4>
+					<p id="second-paragraph" >
+						Text is easier to understand when it is split up into units of text. For
+						example, a book may have chapters. Chapters can have subheadings. Under
+						each heading there will be one or more paragraphs
+					</p>
+				</div>
+			</section>
 
-    <h1>This is a Main heading</h1>
-    <h2>This is a Sub heading</h2>
-    <hr>
+    	<!-- Tag <b> stand for bold. Tag <i> stand for italic -->
+			<h3>Bold and Italic:</h3>
+			<section class="bold-italic">
+				<div class="flex-item" id="bold">
+					<h4>Bold:</h4>
+					<div class="paragraph">
+						<p>
+							Using element <code>&lt;b&gt;</code> to make characters appear bold.
+						</p>
+					</div>
+					<span>
+						<b>Example:</b>
+						This is <b>bold</b>
+					</span>
+				</div>
+				<div class="flex-item" id="italic">
+					<h4>Italic:</h4>
+					<div>
+						<p>
+							Using element <code>&lt;i&gt;</code> to make characters appear italic.
+						</p>
+					</div>
+					<span>
+						<b>Example:</b>
+						This is <i>italic</i>
+					</span>
+				</div>
+			</section>
 
-    <!-- Paragraphs : a browser will show each paragraph on a new line with some space between it and any subsequent paragraphs -->
-   	<p id="first-paragraph" >
-    	A paragraph consists of one or more sentences that form a self-contained
-    	unit of discourse. The start of a paragraph is indicated by a new line.
-   	</p>
-    <p id="second-paragraph" >
-    	Text is easier to understand when it is split up into units of text. For
-    	example, a book may have chapters. Chapters can have subheadings. Under
-    	each heading there will be one or more paragraphs
-    </p>
-
-    <!-- Tag <b> stand for bold. Tag <i> stand for italic -->
-  	<p>This is <b>bold</b>.</p>
-    <p>This is <i>italic</i>.</p>
-
-    <!-- Tag <sup> stand for superscript. Tag <sub> stand for subscript -->
-    <p>Example superscript 2<sup>2</sup></p>
-    <p>Example subscript H<sub>2</sub>O</p>
-
+    	<!-- Tag <sup> stand for superscript. Tag <sub> stand for subscript -->
+			<h3>Superscript and Subscript:</h3>
+			<section class="superscript-subscript">
+				<div class="flex-item" id="superscript">
+					<div class="paragraph">
+						<p>
+							The <code>&lt;sup&gt;</code> element is used to contain characters
+							that should be superscript such as the suffixes of dates or mathematical
+							concepts like raising a number to a power.
+						</p>
+					</div>
+					<span>
+						<b>Example:</b>
+						superscript 2<sup>2</sup>
+					</span>
+				</div>
+				<div class="flex-item" id="subscript">
+					<div class="paragraph">
+						<p>
+							The <code>&lt;sup&gt;</code> element is used to contain characters 
+							that should be subscript. It is commonly used with footnotes or 
+							chemical formulas
+						</p>
+					</div>
+					<span>
+						<b>Example:</b>
+						subscript H<sub>2</sub>O
+					</span>
+				</div>
+			</section>
     <!-- Tag <br /> to break line in paragraph. Tag <hr />  to create a break betweens themes-->
    	<p>Example break line <br />in paragraph</p>
     <p>Example horizontal rule:<hr></p>
@@ -48,31 +106,36 @@
 		<!-- Examples -->
 		<h1>The Story in the Book</h1>
 		<h2>Chapter 1</h2>
-		<p>
-			Molly had been staring out of her window for about
-			an hour now. On her desk, lying between the copies
-			of <i>Nature</i>, <i>New Scientist</i>, and all
-			the other scientific journals her work had
-			appeared in, was a well thumbed copy of <cite>On
-			The Road</cite>. It had been Molly's favorite book
-			since college, and the longer she spent in these
-			four walls the more she felt she needed to be
-			free.
-		</p>
-		<p>
-			She had spent the last ten years in this room,
-			sitting under a poster with an Oscar Wilde quote
-			proclaiming that 
-			<q>
-				Work is the refuge of people who have nothing better to do
-			</q>. 
-			Although many considered her pioneering work, unraveling 	the secrets of the llama 
-			<abbr title="Deoxyribonucleic acid">
-				DNA
-			</abbr>
-			, to be an outstanding achievement, Molly 
-			<em>did</em> 
-			think she had something better to do.
-		</p>
+		<div class="paragraph">
+			<p>
+				Molly had been staring out of her window for about
+				an hour now. On her desk, lying between the copies
+				of <i>Nature</i>, <i>New Scientist</i>, and all
+				the other scientific journals her work had
+				appeared in, was a well thumbed copy of <cite>On
+				The Road</cite>. It had been Molly's favorite book
+				since college, and the longer she spent in these
+				four walls the more she felt she needed to be
+				free.
+			</p>
+		</div>
+		<div class="paragraph">
+			<p>
+				She had spent the last ten years in this room,
+				sitting under a poster with an Oscar Wilde quote
+				proclaiming that 
+				<q>
+					Work is the refuge of people who have nothing better to do
+				</q>. 
+				Although many considered her pioneering work, unraveling 	the secrets of the llama 
+				<abbr title="Deoxyribonucleic acid">
+					DNA
+				</abbr>
+				, to be an outstanding achievement, Molly 
+				<em>did</em> 
+				think she had something better to do.
+			</p>
+		</div>
+		</main>
   </body>
 </html>
