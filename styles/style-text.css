@@ -25,7 +25,7 @@ header {
 	position: fixed;
 	top: 0;
 }
-#title-text-example {
+.title-text-example {
 	margin-top: 10vh;
 }
 p {
