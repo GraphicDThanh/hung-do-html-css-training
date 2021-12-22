@@ -4,85 +4,77 @@ font
 display
 position 
 */
+
 html {
-	font-size: 100%;
-	/* 100% is 16px */
+  font-size: 100%;
+  /* 100% is 16px */
 }
 body{
-	background-color: gray;
+  background-color: gray;
 }
 header {
-	background-color: red;
-
-	font-size: 1rem;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 100vw;
-	height: 10vh;
-
-	position: fixed;
-	top: 0;
+  background-color: red;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  top: 0;  
 }
 .title-text-example {
-	margin-top: 10vh;
+  margin-top: 10vh;
 }
 p {
-	color: black;
+  color: black;
 }
 code {
-background-color: black;
-color: yellow;
+  background-color: black;
+  color: yellow;
 }
 
-h1{
-	font-size: 2.25rem;
+h1 {
+  font-size: 2.25rem;
 }
-h2{
-	font-size: 1.8rem;
-	color: darkcyan;
+h2 {
+  font-size: 1.8rem;
+  color: darkcyan;
 }
 h3{
-	font-size: 1.4rem;
-	color: blue;
+  font-size: 1.4rem;
+  color: blue;
 }
 h4 {
-	font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .text-example {
-	background-color: white;
-
-	margin-top: 36px;
-	padding: 12px 0 32px 0;
-
-	display: flex;
-	justify-content: space-evenly;
+  background-color: white;
+  margin-top: 36px;
+  padding: 12px 0 32px 0;
+  display: flex;
+  justify-content: space-evenly;
 }
 .paragraph {
-	flex-basis: 40%;
+  flex-basis: 40%;
 }
 
 .bold-italic {
-	background-color: white;
-
-	margin-top: 36px;
-	padding: 12px 0 32px 0;
-
-	display: flex;
-	justify-content: space-evenly;
+  background-color: white;
+  margin-top: 36px;
+  padding: 12px 0 32px 0;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .superscript-subscript {
-	background-color: white;
-
-	margin-top: 36px;
-	padding: 12px 0 32px 0;
-
-	display: flex;
-	justify-content: space-evenly;
+  background-color: white;
+  margin-top: 36px;
+  padding: 12px 0 32px 0;
+  display: flex;
+  justify-content: space-evenly;
 }
 .flex-item{
-	flex-basis: 40%;
+  flex-basis: 40%;
 }
