@@ -172,3 +172,25 @@ body {
   margin-top: 16px;
   padding: 11px 20px;
 }
+
+/* section Stats */
+
+.stats__container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 156px;
+  margin-bottom: 112px;
+}
+
+.stats__item  {
+  max-width: 180px;
+}
+
+.stats__data {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.stats__category {
+  font-weight: 500;
+}
