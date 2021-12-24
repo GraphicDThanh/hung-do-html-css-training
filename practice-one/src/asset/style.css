@@ -97,3 +97,13 @@ body {
   background-color: #FFFFFFD9;
   padding: 11px 24px;
 }
+
+/* section Quick info */
+
+.quick-info__content {
+  margin: 0 auto;
+  margin-top: 54px;
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+}
