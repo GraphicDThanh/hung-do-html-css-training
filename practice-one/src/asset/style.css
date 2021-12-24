@@ -5,6 +5,7 @@ html {
 *{
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth !important;
 }
 
 .wrapper {
@@ -22,7 +23,7 @@ html {
   background-color: #0E6248;
   border-radius: 4px;
   text-decoration: none;
-  color: inherit;
+  color: #FFFFFF;
 }
 
 body {
@@ -106,4 +107,68 @@ body {
   text-align: center;
   width: 100%;
   max-width: 800px;
+}
+
+/* section What we do */
+
+.section__heading {
+  margin-top: 158px;
+  text-transform: uppercase;
+  color: #0E6248;
+  font-size: 0.75rem;
+  font-weight: 900;
+  line-height: calc(14 /12);
+}
+
+.section__des {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 9px;
+  margin-bottom: 64px;
+}
+
+.section__des h3{
+  width: 100%;
+  max-width: 680px;
+}
+
+.featured-project__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 38px;
+  margin-right: 24px;
+}
+
+.featured-project__item {
+  border: 1px solid #DDDDDD;
+  border-radius: 8px;
+  width: 280px;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+}
+.featured-project__item img {
+  transform: translate(24px, -22px);
+}
+.section__title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: calc(22 / 18);
+  width: 100%;
+  max-width: 232px;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+
+.section__content {
+  width: 100%;
+  max-width: 232px;
+  margin: 0 auto;
+}
+
+.section__btn {
+  margin: 0 auto;
+  margin-top: 16px;
+  padding: 11px 20px;
 }
