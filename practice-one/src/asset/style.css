@@ -21,6 +21,8 @@ html {
 .btn {
   background-color: #0E6248;
   border-radius: 4px;
+  text-decoration: none;
+  color: inherit;
 }
 
 body {
@@ -29,10 +31,14 @@ body {
   line-height: calc(22 / 16);
 }
 
+/* Header */
+
 .header {
   background-image: url(images/hero-image.png);
   color: #FFFFFF;
 }
+
+/* Navigation */
 
 .nav__container {
   display: flex;
@@ -40,11 +46,6 @@ body {
   align-items: center;
   gap: 0 38px;
   padding-top: 10px;
-}
-
-.nav__item {
-  list-style: none;
-  text-decoration: none;
 }
 
 .nav__item a {
@@ -63,4 +64,36 @@ body {
 
 .btn__share img {
   transform: translate(3px ,3px);
+}
+
+/* section Hero */
+
+.hero-container {
+  max-width: 520px;
+  margin: 0 auto;
+  margin-top: 198px;
+  padding-bottom: 251px;
+}
+
+.hero-heading {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: calc(40 / 36);
+  text-align: center;
+}
+
+.hero-btn {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn__volunteer {
+  padding: 11px 29px;
+}
+
+.btn__learn-more {
+  background-color: #FFFFFFD9;
+  padding: 11px 24px;
 }
