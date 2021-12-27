@@ -1,4 +1,4 @@
-html {
+html,body {
   box-sizing: border-box;
 }
 
@@ -11,6 +11,7 @@ html {
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .container {
@@ -35,7 +36,7 @@ body {
 /* Header */
 
 .header {
-  background-image: url(images/hero-image.png);
+  background-image: url(../images/hero-image.png);
   color: #FFFFFF;
 }
 
@@ -147,6 +148,7 @@ body {
   height: auto;
   display: flex;
   flex-flow: column;
+  padding-bottom: 24px;
 }
 .featured-project__item img {
   transform: translate(24px, -22px);
@@ -193,4 +195,56 @@ body {
 
 .stats__category {
   font-weight: 500;
+}
+/* section Gallery */
+
+/* section Donate */
+
+/* section Newsletter */
+
+/* Footer */
+
+.footer {
+  background-color: #272727;
+  color: #FFFFFF;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: calc(18 / 12);
+  padding-top: 40px;
+  padding-bottom: 45px;
+  margin-top: 139px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__left {
+  text-align: start;
+}
+
+.footer__left a {
+  margin-bottom: 15px;
+}
+.footer__social-media {
+  display: flex;
+  gap: 0 10px;
+  margin-top: 7.5px;
+}
+
+.footer__right  {
+  text-align: end;
+}
+
+.icon__twitter {
+  filter: invert(50%) sepia(33%) saturate(1187%) hue-rotate(159deg) brightness(102%) contrast(96%);
+}
+
+.icon__fb {
+  filter: invert(39%) sepia(14%) saturate(2256%) hue-rotate(182deg) brightness(95%) contrast(91%);
+}
+
+.icon__ig {
+  filter: invert(26%) sepia(74%) saturate(2536%) hue-rotate(321deg) brightness(92%) contrast(90%);
 }
