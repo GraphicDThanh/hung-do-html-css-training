@@ -47,8 +47,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 0 38px;
-  padding-top: 10px;
+  padding-top: 14px;
 }
 
 .nav__item a {
@@ -56,9 +55,22 @@ body {
   color: inherit;
 }
 
-.nav__container li:nth-child(5) {
-  margin-left: 60px; 
-  margin-right: 52px;
+.nav__left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 38px;
+}
+
+.nav__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 32px;
+}
+
+.nav__logo {
+  padding-left: 50px;
 }
 
 .btn__share {
@@ -75,7 +87,7 @@ body {
   max-width: 520px;
   margin: 0 auto;
   margin-top: 198px;
-  padding-bottom: 251px;
+  padding-bottom: 245px;
 }
 
 .hero-heading {
