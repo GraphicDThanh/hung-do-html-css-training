@@ -83,6 +83,31 @@ body {
   transform: translate(3px ,3px);
 }
 
+.nav__item a {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+ .nav__item a::after {
+  content: "";
+  background-color: #0E6248;
+  width: 0;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.nav__item a:hover:after {
+  width: 100%;
+}
+
+.nav__item:hover {
+  color: #0E6248;
+}
+
 /* section Hero */
 
 .hero-container {
