@@ -347,6 +347,12 @@ body {
   margin-top: 26px;
   padding: 10px 21px;
   border: none;
+  width: 100%;
+  max-width: max-content;
+}
+
+.btn__donate img {
+  transform: translate(3px,3px);
 }
 
 
