@@ -241,6 +241,7 @@ body {
 .stats__category {
   font-weight: 500;
 }
+
 /* section Gallery */
 
 .gallery__container {
@@ -252,7 +253,7 @@ body {
   grid-template-columns: repeat(11, min-content);
   grid-template-rows: repeat(2, 181px);
   grid-auto-flow: dense;
-  gap: 26px 30px;
+  gap: 1.625rem 1.875rem;
   justify-items: end;
   align-items: end;
 }
@@ -260,9 +261,12 @@ body {
 .gallery__item {
   border: 1px solid #DDDDDD;
   border-radius: 8px;
+  position: relative;
+  display: block;
 }
 
-.gallery__item img {
+.gallery__item  img{
+  display: block;
   transform: translate(22px, -18px);
 }
 
