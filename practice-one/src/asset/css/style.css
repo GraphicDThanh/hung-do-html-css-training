@@ -222,23 +222,25 @@ body {
 
 /* section Stats */
 
-.stats__container {
+.stats {
+  margin-top: 9.75rem;
+}
+
+.stats-container {
   display: flex;
-  justify-content: space-around;
-  margin-top: 156px;
-  margin-bottom: 112px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
-.stats__item  {
-  max-width: 180px;
-}
-
-.stats__data {
+.stats-data {
   font-weight: 900;
   font-size: 1.5rem;
 }
 
-.stats__category {
+.stats-category {
   font-weight: 500;
 }
 
