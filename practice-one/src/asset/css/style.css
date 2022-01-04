@@ -507,12 +507,12 @@ body {
 }
 
 .footer-left a {
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
 }
 .footer-social-media {
   display: flex;
-  gap: 0 10px;
-  margin-top: 7.5px;
+  gap: 0 0.625rem;
+  margin-top: 0.5rem;
 }
 
 .footer-right  {
