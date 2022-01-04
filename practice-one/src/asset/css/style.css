@@ -350,6 +350,9 @@ body {
   width: 40%;
   min-width: 15rem;
   padding-top: 0.8125rem;
+  padding-left: 1.625rem;
+  padding-right: 1.375rem;
+  padding-bottom: 1.875rem;
 }
 
 
