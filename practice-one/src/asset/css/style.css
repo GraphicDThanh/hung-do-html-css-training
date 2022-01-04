@@ -140,6 +140,7 @@ body {
 
 .main {
   padding-top: 3.375rem;
+  padding-bottom: 8.6875rem;
 }
 
 /* section Quick info */
@@ -489,41 +490,40 @@ body {
   font-size: 0.75rem;
   font-weight: 500;
   line-height: calc(18 / 12);
-  padding-top: 40px;
-  padding-bottom: 45px;
-  margin-top: 139px;
+  padding-top: 2.5rem;
+  padding-bottom: 2.8125rem;
 }
 
-.footer__container {
+.footer-container {
   display: flex;
   justify-content: space-between;
 }
 
-.footer__left {
+.footer-left {
   text-align: start;
 }
 
-.footer__left a {
+.footer-left a {
   margin-bottom: 15px;
 }
-.footer__social-media {
+.footer-social-media {
   display: flex;
   gap: 0 10px;
   margin-top: 7.5px;
 }
 
-.footer__right  {
+.footer-right  {
   text-align: end;
 }
 
-.icon__twitter {
+.icon-twitter {
   filter: invert(50%) sepia(33%) saturate(1187%) hue-rotate(159deg) brightness(102%) contrast(96%);
 }
 
-.icon__fb {
+.icon-fb {
   filter: invert(39%) sepia(14%) saturate(2256%) hue-rotate(182deg) brightness(95%) contrast(91%);
 }
 
-.icon__ig {
+.icon-ig {
   filter: invert(26%) sepia(74%) saturate(2536%) hue-rotate(321deg) brightness(92%) contrast(90%);
 }
