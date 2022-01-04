@@ -9,8 +9,8 @@ html,body {
 }
 
 .container {
-  max-width: 955px;
-  margin: 0 auto;
+  padding-left: 17%;
+  padding-right: 17%;
 }
 
 .btn {
@@ -137,17 +137,15 @@ body {
 /* Main */
 
 .main {
-  padding: 0 2rem;
+  padding-top: 3.375rem;
 }
 
 /* section Quick info */
 
-.quick-info__content {
-  margin: 0 auto;
-  margin-top: 54px;
+.quick-info-content {
   text-align: center;
-  width: 100%;
-  max-width: 800px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 /* section What we do */
