@@ -11,7 +11,6 @@ html,body {
 .container {
   max-width: 955px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 
 .btn {
@@ -34,55 +33,58 @@ body {
 
 .header {
   background-image: url(../images/hero-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #FFFFFF;
+  height: 80vh;
+  padding-top: 1%;
 }
 
 /* Navigation */
 
-.nav__container {
+.nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 14px;
 }
 
-.nav__item a {
+.nav-item a {
   text-decoration: none;
   color: inherit;
 }
 
-.nav__left {
+.nav-left {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 0 38px;
 }
 
-.nav__right {
+.nav-right {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 0 32px;
 }
 
-.nav__logo {
+.nav-logo {
   padding-left: 50px;
 }
 
-.btn__share {
+.btn-share {
   padding: 6px 15px;
 }
 
-.btn__share img {
+.btn-share img {
   transform: translate(3px ,3px);
 }
 
-.nav__item a {
+.nav-item a {
   position: relative;
   padding-bottom: 10px;
 }
 
- .nav__item a::after {
+ .nav-item a::after {
   content: "";
   background-color: #0E6248;
   width: 0;
@@ -94,11 +96,11 @@ body {
   transition-timing-function: ease-in-out;
 }
 
-.nav__item a:hover:after {
+.nav-item a:hover:after {
   width: 100%;
 }
 
-.nav__item:hover {
+.nav-item:hover {
   color: #0E6248;
 }
 
@@ -127,11 +129,11 @@ body {
   align-items: center;
 }
 
-.btn__volunteer {
+.btn-volunteer {
   padding: 10px 29px;
 }
 
-.btn__learn-more {
+.btn-learn-more {
   background-color: #FFFFFFD9;
   padding: 9px 24px;
 }
