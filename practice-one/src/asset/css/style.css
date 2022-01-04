@@ -8,12 +8,6 @@ html,body {
   scroll-behavior: smooth !important;
 }
 
-.wrapper {
-  max-width: 1440px;
-  margin: 0 auto;
-  overflow-x: hidden;
-}
-
 .container {
   max-width: 955px;
   margin: 0 auto;
@@ -271,7 +265,7 @@ body {
 }
 
 .gallery__item:nth-child(1) {
-  grid-column: 1 / 4;
+  grid-column: 1 / 4; 
 }
 
 .gallery__item:nth-child(3) {
