@@ -22,6 +22,10 @@ html,body {
   display: block;
 }
 
+.btn:hover {
+  filter: brightness(130%);
+}
+
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
