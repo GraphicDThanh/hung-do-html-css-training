@@ -1,19 +1,7 @@
 {
   "devDependencies": {
-    "@commitlint/cli": "^15.0.0",
-    "@commitlint/config-conventional": "^15.0.0",
-    "husky": "^7.0.4",
-    "parcel": "^2.0.1"
-  },
-
-  "name": "my-project",
-  "source": "practice-one/src/index.html",
-  "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
-  },
-  "devDependencies": {
-    "parcel": "latest"
+    "@commitlint/cli": "^16.0.1",
+    "@commitlint/config-conventional": "^16.0.0",
+    "husky": "^7.0.4"
   }
 }
-
