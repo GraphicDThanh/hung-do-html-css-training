@@ -16,9 +16,9 @@ html,body {
 .btn {
   background-color: #0E6248;
   border-radius: 0.25rem;
-  text-decoration: none;
   color: #FFFFFF;
   font-weight: 700;
+  border: none;
   display: block;
 }
 
@@ -40,7 +40,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #FFFFFF;
-  height: 100vh;
+  height: 41.5em;
   padding-top: 1%;
 }
 
@@ -171,6 +171,7 @@ body {
 .section-des {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   margin-top: 0.5625rem;
 }
 
