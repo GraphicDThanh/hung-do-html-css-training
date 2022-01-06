@@ -23,6 +23,5 @@
 ### Other information:
   - Clone repo:
       - SSH: <code>git clone -b feature/practice-one git@github.com:GraphicDThanh/hung-do-html-css-training.git<code>
-      or
-      - SSH  <code>git clone -b feature/practice-one git@github.com:meovan07/Hung-Do.git<code>
+      - SSH: <code>git clone -b feature/practice-one git@github.com:meovan07/Hung-Do.git<code>
 
