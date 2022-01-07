@@ -139,6 +139,10 @@ body {
   padding: 0.5625rem 1.5rem;
 }
 
+.btn-learn-more:hover {
+  filter: brightness(85%);
+}
+
 /* Main */
 
 .main {
@@ -148,7 +152,7 @@ body {
 
 /* section Quick info */
 
-.quick-info-content {
+.quick-info{
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
@@ -156,7 +160,7 @@ body {
 
 /* section What we do */
 
-.what-we-do {
+.what-we-do-container {
   margin-top: 10rem;
 }
 
@@ -279,7 +283,6 @@ body {
 .gallery-item {
   border: 1px solid #DDDDDD;
   border-radius: 0.5rem;
-  position: relative;
   display: block;
 }
 
@@ -408,7 +411,7 @@ body {
 
 /* section Reading Resources */
 
-.reading-resources {
+.reading-resources-container {
   margin-top: 10rem;
 }
 
@@ -438,11 +441,11 @@ body {
 
 /* section Newsletter */
 
-.newsletter {
+.newsletter-container {
   margin-top: 5.125rem;
 }
 
-.newsletter-container {
+.newsletter {
   background-color: #0E6248;
   color: #FFFFFF;
   border-radius: 0.5rem;
@@ -493,7 +496,7 @@ body {
 
 /* Footer */
 
-.footer {
+.footer-container {
   background-color: #272727;
   color: #FFFFFF;
   font-size: 0.75rem;
@@ -501,9 +504,6 @@ body {
   line-height: calc(18 / 12);
   padding-top: 2.5rem;
   padding-bottom: 2.8125rem;
-}
-
-.footer-container {
   display: flex;
   justify-content: space-between;
 }
