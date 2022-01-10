@@ -146,22 +146,32 @@ body {
 /* Main */
 
 .main {
-  padding-top: 3.375rem;
+  padding-top: 1rem;
   padding-bottom: 8.6875rem;
 }
 
 /* section Quick info */
 
+.quick-info-container {
+  display:flex;
+  justify-content: center;
+  background-color: #FBF8F6;
+  padding-top: 2.375rem;
+  padding-bottom: 2.375rem;
+}
+
 .quick-info{
+  max-width: 50rem;
   text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
+  font-size: 1.125rem;
+  line-height: calc(21.6 / 18);
+  
 }
 
 /* section What we do */
 
 .what-we-do-container {
-  margin-top: 10rem;
+  margin-top: 7.5rem;
 }
 
 .section-heading {
