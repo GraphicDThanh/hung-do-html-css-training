@@ -2,6 +2,10 @@ html,body {
   box-sizing: border-box;
 }
 
+html {
+  font-size: 100%;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -110,7 +114,7 @@ body {
 
 .hero-container {
   padding: 0 30% 0 30%;
-  margin-top: 14%;
+  margin-top: 12.375rem;
 }
 
 .hero-heading {
