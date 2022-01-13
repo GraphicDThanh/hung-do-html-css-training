@@ -2,43 +2,46 @@
 
 ### Overview:
   - Design: [Figma/Sketch/PSD](https://www.figma.com/file/otci30NR0gmWYix6byA3cq/charity-homepage-whilecreative)
-  - Timeline: 4 days
 
 ### Targets:
   - Build a website with HTML/CSS from the design
   - Familiar with common HTML tags and CSS selectors
   - Familiar with Flexbox, Grid
 
-### Editor:
-  - Visual Studio Code
+### Information:
+  - Timeline: 
+    - Estimate time: 4 days.
+    - Actual time: 8 days.
+  - Techniques: HTML5/ CSS3.
+  - Editor: Visual Studio Code
+  - Supported browser:
+      - Chrome
+      - Microsoft Egde
+      - Firefox
+      - Internet Explorer 11
 
-### Technical:
-  - HTML5
-  - CSS3
-  - Flexbox/Grid
-  - Sizing unit, Box model,
-  ....
+### Environment:
+  - Node: version 14.0.0 
+  - npm: version 6.14.15
+  - Parcel: version 2.0.1
+  
+### Getting started:
+  - Step1: Cloning the repo
+    - Main repo: 
+      - HTTPS: <code>$ git clone -b feature/practice-one https://github.com/GraphicDThanh/hung-do-html-css-training.git</code>
+      - SSH: <code>$ git clone -b feature/practice-one git@github.com:GraphicDThanh/hung-do-html-css-training.git</code>
+    - Sub repo:
+      - HTTPS: <code>$ git clone -b feature/practice-one https://github.com/meovan07/Hung-Do.git</code>
+      - SSH: <code>$ git clone -b feature/practice-one git@github.com:meovan07/Hung-Do.git</code>
 
-### Source manage:
-  - Git/ Github
+  - Step 2: Move to practice-one folder
+      <code>$ cd practice-one </code>
 
-### Cloning repo:
-  - Main repo: 
-    - HTTPS: <code>git clone -b feature/practice-one https://github.com/GraphicDThanh/hung-do-html-css-training.git</code>
-    - SSH: <code>git clone -b feature/practice-one git@github.com:GraphicDThanh/hung-do-html-css-training.git</code>
-  - Sub repo:
-    - HTTPS: <code>git clone -b feature/practice-one https://github.com/meovan07/Hung-Do.git</code>
-    - SSH: <code>git clone -b feature/practice-one git@github.com:meovan07/Hung-Do.git</code>
+  - Step 3: Install package <code>$ npm install </code>
 
-### Parcel:
-  - Before we get started, you'll need to install Node and Yarn or npm, and create a directory for your project. 
-  - Then, install Parcel into your app using Yarn: </br>
-    <code>yarn add --dev parcel</code> </br>
-    Or when using npm run: </br>
-    <code>npm install --save-dev parcel</code>
-  - Now you can run <code>yarn build</code> or when using npm <code>npm build</code> to build your project for production  
-  - Using <code>yarn start</code> or when using npm <code>npm start</code> to start the development server.
-  - Open http://localhost:1234/ in your browser to see the HTML file.
+  - Step 4: Run project <code> $ npm start</code>
+
+  - Step 5: Open http://localhost:1234/ in your browser to see the HTML file.
 
 
 
