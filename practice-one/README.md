@@ -9,25 +9,22 @@
   - Familiar with Flexbox, Grid
 
 ### Information:
-  - Timeline: 
+  - Timeline:
     - Estimate time: 4 days.
     - Actual time: 8 days.
   - Techniques: HTML5/ CSS3.
   - Editor: Visual Studio Code
   - Supported browser:
-      - Chrome
-      - Microsoft Egde
-      - Firefox
-      - Internet Explorer 11
+      - Chrome ( Latest version )
 
 ### Environment:
-  - Node: version 14.0.0 
+  - Node: version 14.0.0
   - npm: version 6.14.15
   - Parcel: version 2.0.1
-  
+
 ### Getting started:
   - Step1: Cloning the repo
-    - Main repo: 
+    - Main repo:
       - HTTPS: <code>$ git clone -b feature/practice-one https://github.com/GraphicDThanh/hung-do-html-css-training.git</code>
       - SSH: <code>$ git clone -b feature/practice-one git@github.com:GraphicDThanh/hung-do-html-css-training.git</code>
     - Sub repo:
