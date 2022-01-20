@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>General layout</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      border: 1px solid black;
+      margin: 0;
+      text-align: center;
+    }
+    header {
+      background-color: green;
+      height: 300px;
+    }
+    .nav__container {
+      background-color: yellow;
+      height: 60px;
+      margin-top: 10px;
+      margin-left: 50px;
+      margin-right: 50px;
+      display: flex; 
+    }
+    .nav__left {
+      border: 1px solid black;
+      flex-basis: 40%;
+    }
+    .nav__logo {
+      flex-basis: 20%;
+    }
+    .nav__right {
+      flex-basis: 40%;
+    }
+    .header__overview {
+      background-color: yellow;
+      margin-top: 80px;
+      margin-left: 20%;
+      margin-right: 20%;
+      height: 100px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+    .header__overview h2 {
+      width: 100%;
+    }
+    .header__overview__btn {
+      display: block;
+      width: 40%;
+    }
+    .section__quick-info {
+      margin-top: 100px;
+      margin-left: 10%;
+      margin-right: 10%;
+      height: 50px;
+      background-color: yellow;
+    }
+    .section__what-we-do {
+      background-color: red;
+      margin-top: 100px;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    .section__what-we-do__overview {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .section__what-we-do__overview h5 {
+      flex-basis: 100%;
+    }
+    .section__what-we-do__overview p {
+      flex-basis: 70%
+    }
+    .section__what-we-do__overview a {
+      flex-basis: 20%
+    }
+    .section__what-we-do__partner {
+      margin-top: 30px;
+    }
+    .partner__container {
+      display: flex;
+      justify-content: space-between;
+    }
+    .partner__item {
+      flex-basis: 30%;
+    }
+    .section__stat {
+      background-color: gray;
+      margin-top: 100px;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    .stat__container {
+      display: flex;
+      justify-content: space-around;
+    }
+    .section__gallery {
+      background-color: yellow;
+      margin-top: 70px;
+      height: 150px;
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 1px  1px;
+    }
+    .section__gallery > div {
+      border: 1px solid black;
+    }
+    .section__donate {
+      background-color: green;
+      margin-top: 100px;
+      margin-left: 10%;
+      margin-right: 10%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .section__donate__overview {
+      flex-shrink: 1;
+    }
+    .section__donate__form {
+      flex-shrink: 1;
+    }
+    .section__reading-resource {
+      background-color: red;
+      margin-top: 60px;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    .section__what-we-do {
+      background-color: red;
+      margin-top: 100px;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    .section__reading-resource__overview {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .section__reading-resource__overview h5 {
+      flex-basis: 100%;
+    }
+    .section__reading-resource__overview p {
+      flex-basis: 70%;
+    }
+    .section__reading-resource__overview a {
+      flex-basis: 20%;
+    }
+    .section__reading-resource__download {
+      margin-top: 30px;
+    }
+    .download__container {
+      display: flex;
+      justify-content: space-between;
+    }
+    .download__item {
+      flex-basis: 30%;
+    }
+    .section__newsletter {
+      background-color: green;
+      margin-top: 80px;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    .section__newsletter h3 {
+      margin-top: 20px;
+    }
+    .section__newsletter__subscribe-email {
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: gray;
+      margin-top: 100px;
+      height: 150px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .footer__left {
+      flex-basis: 40%;
+    }
+    .footer__right {
+      flex-basis: 40%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav__container">
+        <div class="nav__left">nav-left</div>
+        <div class="nav__logo">
+          <h1 class="logo">Logo</h1>
+        </div>
+        <div class="nav__right">nav-right</div>
+      </div>
+    </nav>
+    <div class="header__overview">
+      <h2>Title</h2>
+      <a href="" class="header__overview__btn">btn 1</a>
+      <a href="" class="header__overview__btn">btn 2</a>
+    </div>
+  </header>
+  <div class="section__quick-info">
+    Quick info
+  </div>
+  <div class="section__what-we-do">
+    <div class="section__what-we-do__overview">
+      <h5>What we do</h5>
+      <p>paragraph</p>
+      <a href="">btn</a>
+    </div>
+    <div class="section__what-we-do__partner">
+      <div class="partner__container">
+        <div class="partner__item">
+          <img src="" alt="image" title="image">
+          <h3>Title</h3>
+          <p>paragraph</p>
+          <a href="">btn</a>
+        </div>
+        <div class="partner__item">
+          <img src="" alt="image" title="image">
+          <h3>Title</h3>
+          <p>paragraph</p>
+          <a href="">btn</a>
+        </div>
+        <div class="partner__item">
+          <img src="" alt="image" title="image">
+          <h3>Title</h3>
+          <p>paragraph</p>
+          <a href="">btn</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section__stat">
+    <div class="stat__container">
+      <div class="stat__item">
+        <p>Data</p>
+        <p>category</p>
+      </div>
+      <div class="stat__item">
+        <p>Data</p>
+        <p>category</p>
+      </div>
+      <div class="stat__item">
+        <p>Data</p>
+        <p>category</p>
+      </div>
+      <div class="stat__item">
+        <p>Data</p>
+        <p>category</p>
+      </div>
+    </div>
+  </div>
+  <div class="section__gallery">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <div class="section__donate">
+    <div class="section__donate__overview">
+      <p>paragraph 1</p>
+      <p>paragraph 2</p>
+    </div>
+    <div class="section__donate__form">
+      <form action="" class="form__container">
+        <p>Name:</p>
+        <input type="text" placeholder="Name" class="form__text">
+        <p>Email:</p>
+        <input type="email" placeholder="Email" class="form__email">
+        <p>Amount:</p>
+        <div class="form__amount">
+          <select name="currency" id="">
+            <option value="VND">VND</option>
+          </select>
+          <input type="number" placeholder="Amount money in number">
+        </div>
+        <input type="submit" value="Donate">
+      </form>
+    </div>
+  </div>
+  <div class="section__reading-resource">
+    <div class="section__reading-resource__overview">
+      <h5>Reading resources</h5>
+      <p>paragraph</p>
+      <a href="">btn</a>
+    </div>
+    <div class="section__reading-resource__download">
+      <div class="download__container">
+        <div class="download__item">
+          <h3>Title</h3>
+          <p>paragraph</p>
+          <a href="">btn</a>
+        </div>
+        <div class="download__item">
+          <h3>Title</h3>
+          <p>paragraph</p>
+          <a href="">btn</a>
+        </div>
+        <div class="download__item">
+          <h3>Title</h3>
+          <p>paragraph</p>
+          <a href="">btn</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section__newsletter">
+    <h3>Title</h3>
+    <p>paragraph</p>
+    <div class="section__newsletter__subscribe-email">
+      <input type="email" class="subcribe-email__email">
+      <input type="submit" value="Subscribe" class="subscribe-email__submit">
+    </div>
+  </div>
+  <footer>
+    <div class="footer__left">footer left</div>
+    <div class="footer__right">footer right</div>
+  </footer>  
+</body>
+</html>
