@@ -39,7 +39,10 @@
   - Step 4: Run project <code> $ npm start</code>
 
   - Step 5: Open http://localhost:1234/ in your browser to see the HTML file.
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> develop
