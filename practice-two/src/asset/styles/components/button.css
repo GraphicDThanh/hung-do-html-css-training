@@ -3,6 +3,7 @@
 @import url(../base/variables.css);
 
 .button {
+  white-space: nowrap;
   border: none;
   text-transform: uppercase;
   font-weight: var(--font-bold);

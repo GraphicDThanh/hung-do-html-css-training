@@ -1,10 +1,10 @@
 <link rel="stylesheet" href="./asset/styles/components/navbar.css">
 <nav class="navbar">
-  <div class="navbar-brand">
-    <img src="./asset/images/Logo.png" alt="Logo">
+  <a href="" class="navbar-brand">
+    <img class="navbar-logo" src="./asset/images/Logo.png" alt="Logo">
     <h1>VanGoux</h1>
-  </div>
-  <div class="navbar-nav">
+  </a>
+  <div class="navbar-action">
     <include src="components/navs.html" locals='{
       "link_1": "How it works",
       "link_2": "Features",
@@ -12,13 +12,13 @@
       "link_4": "Schedule a demo"
     }'>
     </include>
-  </div>
-  <div class="navbar-button">
-    <include src="components/button.html" locals='{
-      "text": "upload sketch",
-      "color": "blue",
-      "size": "small"
-    }'>
-    </include>
+    <div class="navbar-button">
+      <include src="components/button.html" locals='{
+        "text": "upload sketch",
+        "color": "blue",
+        "size": "small"
+      }'>
+      </include>
+    </div>
   </div>
 </nav>

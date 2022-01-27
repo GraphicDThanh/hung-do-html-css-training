@@ -1,26 +1,45 @@
+@import url(../base/reset.css);
+@import url(../base/global.css);
+@import url(../base/variables.css);
+
 /* Mobile (Tablet)  */
 .navbar {
-  margin: 2.5rem 5rem auto 5rem;
-  background-color: aqua;
+  margin: 1.875rem 10% auto 10%;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-brand {
-  height: 3.125rem;
-  width: 11.25rem;
-  background-color: red;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-right: auto;
 }
 
-.navbar-nav {
+.navbar-brand h1 {
+  font-size: 1.25rem;
+  font-weight: var(--font-semi-bold);
+  line-height: calc(30 / 20);
+  color: var(--blue-color);
+  margin-left: 1rem;
+}
+
+.navbar-action {
   display: none;
+  align-items: center;
+  gap: 1rem 0;
 }
 
 .navbar-button {
-  display: none;
+  margin-left: 1rem;
 }
 
 /* Responsive in Desktop */
-@media all and (min-width: 768px) {
-  .navbar{
-    margin: 1.875rem 10rem auto 10rem;
+
+@media all and (min-width: 768px) and (max-width: 1440px) {
+  .navbar-action {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 }
