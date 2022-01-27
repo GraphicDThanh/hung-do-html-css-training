@@ -1,8 +1,21 @@
 /* Mobile (Tablet)  */
 .navbar {
-  height: 80px;
   margin: 2.5rem 5rem auto 5rem;
   background-color: aqua;
+}
+
+.navbar-brand {
+  height: 3.125rem;
+  width: 11.25rem;
+  background-color: red;
+}
+
+.navbar-nav {
+  display: none;
+}
+
+.navbar-button {
+  display: none;
 }
 
 /* Responsive in Desktop */
