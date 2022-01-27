@@ -37,6 +37,10 @@
 /* Responsive in Desktop */
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
+  .navbar-brand {
+    align-self: flex-start;
+  }
+
   .navbar-action {
     display: flex;
     flex-direction: column;
