@@ -24,8 +24,4 @@
 
   - Chrome browser
   - Visual Studio Code
-<<<<<<< HEAD
   - Live server: extension for Visual Studio Code
-=======
-  - Live server: extension for Visual Studio Code
->>>>>>> develop
