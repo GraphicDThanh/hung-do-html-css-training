@@ -1,7 +1,13 @@
+/* Mobile (Tablet)  */
 .navbar {
-  height: 50px;
-  margin-top: 32px;
-  margin-left: 80px;
-  margin-right: 80px;
+  height: 80px;
+  margin: 2.5rem 5rem auto 5rem;
   background-color: aqua;
+}
+
+/* Responsive in Desktop */
+@media all and (min-width: 768px) {
+  .navbar{
+    margin: 1.875rem 10rem auto 10rem;
+  }
 }
