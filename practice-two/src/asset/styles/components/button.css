@@ -1,0 +1,26 @@
+@import url(../base/reset.css);
+@import url(../base/global.css);
+@import url(../base/variables.css);
+
+.button {
+  border: none;
+  text-transform: uppercase;
+}
+
+.button--blue {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+}
+
+.button--white {
+  background-color: var(--white-color);
+  color: var(--blue-color);
+}
+
+.button--small {
+  padding: 1rem 2rem;
+}
+
+.button--large {
+  padding: 1rem 3.25rem;
+}
