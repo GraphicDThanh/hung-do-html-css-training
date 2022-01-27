@@ -1,0 +1,12 @@
+:root{
+/* Color */
+  --blue-color: #1968FC;
+  --milky-white-color: #F3F7FF;
+  --white-color: #FFFFFF;
+  --black: #000000;
+
+  /* Font weight */
+  --font-regular: 400;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+}
