@@ -1,8 +1,24 @@
 <link rel="stylesheet" href="./asset/styles/sections/hero-section.css">
 <body>
   <section class="hero-section">
-    <div class="hero-jumbotron">Hero jumbotron</div>
-    <div class="hero-img">Hero image</div>
-    <div class="hero-notify">Hero notify</div>
+    <div class="hero-jumbotron">
+      <include src="components/jumbotron.html" locals='{
+        "title_mobile": "Launch websites directly from Sketch",
+        "title_desktop": "Launch beautiful websites directly from Sketch",
+        "content": "Create pixel perfect websites, landing pages & portfolios directly from your Sketch designs",
+        "text_button": "See VanGoux in action",
+        "color_button": "blue",
+        "size_button": "large"
+      }'>
+      </include>
+    </div>
+    <div class="hero-img">
+      <img src="./asset/images/hero-image.png" alt="Hero image">
+    </div>
+    <div class="hero-notify">
+      <p>
+        Please visit our desktop site to upload your Sketch designs
+      </p>
+    </div>
   </section>
 </body>

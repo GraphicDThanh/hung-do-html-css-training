@@ -6,30 +6,33 @@
 
 .hero-section {
   margin-top: 6rem;
-  width: 100%;
-  height: 67.25rem;
-  background-color: var(--blue-color);
 }
 
 .hero-jumbotron {
   width: 73%;
-  height: 19rem;
-  background-color: yellow;
   margin-left: 10%;
 }
 
 .hero-img {
-  width: 90%;
-  height: 30rem;
-  margin: 5rem auto 0 auto;
-  background-color: orange;
+  margin-top: 5rem;
+  display: grid;
+  justify-items: center;
 }
 
 .hero-notify {
-  width: 100%;
-  height: 11.25rem;
-  margin-top: 2rem;
-  background-color: palegreen;
+  display: grid;
+  justify-items: center;
+  background-image: url(../../images/background-hero.png);
+}
+
+.hero-notify p {
+  max-width: 80%;
+  text-transform: uppercase;
+  color: var(--white-color);
+  font-size: 1.25rem;
+  font-weight: var(--font-bold);
+  line-height: calc(40 / 20);
+  text-align: center;
 }
 
 @media all and (min-width: 768px) and (max-width: 1920px) {
