@@ -1,0 +1,12 @@
+@import url(../base/reset.css);
+@import url(../base/global.css);
+@import url(../base/variables.css);
+
+/* Mobile (Tablet) */
+
+.hero-section {
+  margin-top: 6rem;
+  width: 100%;
+  height: 63rem;
+  background-color: var(--blue-color);
+}
