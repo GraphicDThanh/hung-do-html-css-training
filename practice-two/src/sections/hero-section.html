@@ -2,15 +2,26 @@
 <body>
   <section class="hero-section">
     <div class="hero-jumbotron">
-      <include src="components/jumbotron.html" locals='{
-        "title_mobile": "Launch websites directly from Sketch",
-        "title_desktop": "Launch beautiful websites directly from Sketch",
-        "content": "Create pixel perfect websites, landing pages & portfolios directly from your Sketch designs",
-        "text_button": "See VanGoux in action",
-        "color_button": "blue",
-        "size_button": "large"
-      }'>
-      </include>
+      <div class="hero-jumbotron-mobile">
+        <include src="components/jumbotron.html" locals='{
+          "title": "Launch websites directly from Sketch",
+          "content": "Create pixel perfect websites, landing pages & portfolios directly from your Sketch designs",
+          "text_button": "See VanGoux in action",
+          "color_button": "blue",
+          "size_button": "large"
+        }'>
+        </include>
+      </div>
+      <div class="hero-jumbotron-desktop">
+        <include src="components/jumbotron.html" locals='{
+          "title": "Launch beautiful websites directly from Sketch",
+          "content": "",
+          "text_button": "",
+          "color_button": "",
+          "size_button": ""
+        }'>
+        </include>
+      </div>
     </div>
     <div class="hero-img">
       <img src="./asset/images/hero-image-2.png" alt="Hero image">

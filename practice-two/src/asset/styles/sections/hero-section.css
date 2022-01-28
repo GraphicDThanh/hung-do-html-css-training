@@ -1,18 +1,20 @@
 @import url(../base/reset.css);
 @import url(../base/global.css);
 @import url(../base/variables.css);
-@import url(../components/jumbotron.css);
 
 /* Mobile (Tablet) */
 
 .hero-section {
   margin-top: 6rem;
-  height: calc(100% + 41rem);
 }
 
 .hero-jumbotron {
   width: 73%;
   margin-left: 10%;
+}
+
+.hero-jumbotron-desktop {
+  display: none;
 }
 
 .hero-img {
@@ -49,6 +51,14 @@
   .hero-section {
     margin-top: 9.375rem;
     height: 46rem;
+  }
+
+  .hero-jumbotron-mobile {
+    display: none;
+  }
+
+  .hero-jumbotron-desktop {
+    display: block;
   }
 
   .hero-notify {
