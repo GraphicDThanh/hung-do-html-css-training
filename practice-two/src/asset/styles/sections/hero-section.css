@@ -5,7 +5,9 @@
 /* Mobile (Tablet) */
 
 .hero-section {
+  display: flex;
   margin-top: 6rem;
+  flex-direction: column;
 }
 
 .hero-jumbotron {
@@ -31,6 +33,7 @@
 }
 
 .hero-notify {
+  margin-top: 3rem;
   display: grid;
   justify-items: center;
   background-image: url(../../images/background-hero.png);
@@ -50,7 +53,15 @@
 @media all and (min-width: 768px) and (max-width: 1920px) {
   .hero-section {
     margin-top: 9.375rem;
-    height: 46rem;
+    flex-direction: row;
+  }
+
+  .hero-jumbotron {
+    max-width: 40%;
+  }
+
+  .hero-img {
+    width: 40%;
   }
 
   .hero-jumbotron-mobile {
@@ -59,6 +70,10 @@
 
   .hero-jumbotron-desktop {
     display: block;
+  }
+
+  .hero-img {
+    padding: 0;
   }
 
   .hero-notify {
