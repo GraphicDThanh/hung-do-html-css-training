@@ -25,3 +25,7 @@
   line-height: calc(40 / 20);
   color: var(--black-color);
 }
+
+.jumbotron-button {
+  margin-top: 2.5rem;
+}

@@ -1,11 +1,13 @@
 @import url(../base/reset.css);
 @import url(../base/global.css);
 @import url(../base/variables.css);
+@import url(../components/jumbotron.css);
 
 /* Mobile (Tablet) */
 
 .hero-section {
   margin-top: 6rem;
+  height: calc(100% + 41rem);
 }
 
 .hero-jumbotron {
@@ -14,19 +16,27 @@
 }
 
 .hero-img {
+  width: 100%;
   margin-top: 5rem;
   display: grid;
   justify-items: center;
+  padding: 0 3%;
+}
+
+.hero-img img {
+  width: 100%;
+  height: auto;
 }
 
 .hero-notify {
   display: grid;
   justify-items: center;
   background-image: url(../../images/background-hero.png);
+  padding: 2.5rem 0;
 }
 
 .hero-notify p {
-  max-width: 80%;
+  max-width: 82%;
   text-transform: uppercase;
   color: var(--white-color);
   font-size: 1.25rem;
@@ -39,5 +49,9 @@
   .hero-section {
     margin-top: 9.375rem;
     height: 46rem;
+  }
+
+  .hero-notify {
+    display: none;
   }
 }
