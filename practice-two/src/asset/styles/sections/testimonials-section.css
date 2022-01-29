@@ -1,0 +1,9 @@
+@import url(../base/reset.css);
+@import url(../base/global.css);
+@import url(../base/variables.css);
+
+.testimonials-section {
+  margin-top: 5rem;
+  height: 36.25rem;
+  background-color: var(--blue-color);
+}

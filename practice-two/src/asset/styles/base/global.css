@@ -11,3 +11,7 @@
 body {
   font-family: 'Mulish', sans-serif;
 }
+
+.container {
+  margin: 0 10% auto 10%;
+}
