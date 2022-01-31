@@ -50,7 +50,21 @@
   text-align: center;
 }
 
-@media all and (min-width: 768px) and (max-width: 1920px) {
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .hero-jumbotron-desktop {
+    display: block;
+  }
+
+  .hero-jumbotron-mobile {
+    display: none;
+  }
+
+  .hero-notify {
+    display: none;
+  }
+}
+
+@media all and (min-width: 1025px) and (max-width: 1920px) {
   .hero-section {
     margin: 9.375rem 10% 0 10%;
     flex-direction: row;

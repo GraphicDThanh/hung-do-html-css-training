@@ -1,0 +1,9 @@
+@import url(../base/reset.css);
+@import url(../base/global.css);
+@import url(../base/variables.css);
+
+.testimonial-card {
+  background-color: yellow;
+  width: 540px;
+  height: 280px;
+}
