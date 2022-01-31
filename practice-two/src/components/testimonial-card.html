@@ -2,16 +2,16 @@
 <body>
   <div class="testimonial-card">
     <div class="card-header">
-      <img src="#" alt="card img" class="card-img">
+      <img src="{{ card_img }}" alt="card img" class="card-img">
       <div class="card-info">
-        <h3 class="card-name">card name</h3>
-        <h4 class="card-position">card position</h4>
+        <h3 class="card-name">{{ card_name }}</h3>
+        <h4 class="card-position">{{ card_position }}</h4>
       </div>
-      <img src="#" alt="card icon" class="card-icon">
+      <img src="{{ card_icon }}" alt="card icon" class="card-icon">
     </div>
     <div class="card-content">
       <p class="card-text">
-        Card text
+        {{ card_text }}
       </p>
     </div>
   </div>
