@@ -3,35 +3,67 @@
 @import url(../base/variables.css);
 
 .testimonial-card {
-  background-color: yellow;
-  width: 540px;
-  height: 280px;
+  width: 100%;
+  height: 100%;
   padding: 2.5rem;
   display: flex;
   flex-flow: column;
+  gap: 2.5rem 0;
+  box-shadow: 0px 20px 60px 0px #1968FC1A;
 }
 
 .card-header {
   width: 100%;
   height: 55%;
   display: flex;
-  background-color: purple;
 }
 
 .card-img {
-  width: 20%;
+  width: 21.7%;
+}
+
+.card-img img {
+  width: 100%;
+  aspect-ratio: 1;
 }
 
 .card-info {
-  width: 60%;
+  width: calc(100% - 21.7% - 13%);
+  padding: 5% 1.25rem;
 }
 
-.card-icon  {
-  width: 20%;
+.card-name {
+  font-size: 1.125rem;
+  font-weight: var(--font-semi-bold);
+  line-height: calc(30 / 18);
+  color: var(--black-color);
+}
+
+.card-position {
+  font-size: 0.875rem;
+  font-weight: var(--font-semi-bold);
+  line-height: calc(30 / 14);
+  color: var(--blue-color);
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.card-icon {
+  width: 13%;
+}
+
+.card-icon img {
+  width: 100%;
+  aspect-ratio: 60 / 46;
 }
 
 .card-content {
-  height: 35%;
-  background-color: rosybrown;
   margin-top: auto;
+}
+
+.card-text {
+  font-size: 1rem;
+  font-weight: var(--font-regular);
+  line-height: calc(30 / 16);
+  color: var(--black-color);
 }

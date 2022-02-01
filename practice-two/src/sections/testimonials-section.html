@@ -1,19 +1,25 @@
 <link rel="stylesheet" href="./asset/styles/sections/testimonials-section.css">
 <body>
-  <section class="testimonials-section">
-    <include src="components/testimonial-card.html" locals='{
-      "card_img": "asset/images/CEO-image.png",
-      "card_name": "John Doe",
-      "card_position": "CEO, PrettyDopeDesigns",
-      "card_icon": "asset/images/Quote.png",
-      "card_text": "“Our senior frontend developer was 70% faster in building React.js components thanks to VanGoux!”"
-    }'></include>
-    <include src="components/testimonial-card.html" locals='{
-      "card_img": "asset/images/Founder-image.png",
-      "card_name": "Jane Goodman",
-      "card_position": "Founder, ImpactNation",
-      "card_icon": "asset/images/Quote.png",
-     "card_text": "“It was awesome to see VanGoux turn our MVP designs into code within minutes.”"
-    }'></include>
+  <section class="testimonials-container">
+    <div class="testimonial-item">
+      <include src="components/testimonial-card.html" locals='{
+        "card_img": "asset/images/CEO-image.png",
+        "card_name": "John Doe",
+        "card_position": "CEO, PrettyDopeDesigns",
+        "card_icon": "asset/images/Quote.png",
+        "card_text": "“Our senior frontend developer was 70% faster in building React.js components thanks to VanGoux!”"
+      }'>
+    </include>
+    </div>
+    <div class="testimonial-item">
+      <include src="components/testimonial-card.html" locals='{
+        "card_img": "asset/images/Founder-image.png",
+        "card_name": "Jane Goodman",
+        "card_position": "Founder, ImpactNation",
+        "card_icon": "asset/images/Quote.png",
+       "card_text": "“It was awesome to see VanGoux turn our MVP designs into code within minutes.”"
+      }'>
+    </include>
+    </div>
   </section>
 </body>

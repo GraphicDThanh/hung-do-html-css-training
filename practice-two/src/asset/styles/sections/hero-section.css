@@ -4,7 +4,7 @@
 
 /* Mobile (Tablet) */
 
-.hero-section {
+.hero-container {
   display: flex;
   margin-top: 6rem;
   flex-direction: column;
@@ -65,7 +65,7 @@
 }
 
 @media all and (min-width: 1025px) and (max-width: 1920px) {
-  .hero-section {
+  .hero-container {
     margin: 9.375rem 10% 0 10%;
     flex-direction: row;
     position: relative;
