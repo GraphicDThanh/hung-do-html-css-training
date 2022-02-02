@@ -3,16 +3,11 @@
 @import url(../base/variables.css);
 
 .testimonials-container {
-  max-width: 100%;
   margin: 5rem 8% 0 8%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 2.5rem 0;
-}
-
-.testimonial-item {
-  width: clamp(22.5rem, 100% ,33.75rem);
 }
 
 @media all and (min-width: 768px) and (max-width: 1920px) {
