@@ -1,0 +1,9 @@
+@import url(../base/reset.css);
+@import url(../base/global.css);
+@import url(../base/variables.css);
+
+.howitwork-container {
+  height: 745px;
+  margin-top: 7.5rem ;
+  background-color: yellow;
+}
