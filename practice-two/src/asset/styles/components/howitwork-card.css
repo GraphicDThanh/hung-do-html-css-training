@@ -1,0 +1,35 @@
+@import url(../base/reset.css);
+@import url(../base/global.css);
+@import url(../base/variables.css);
+
+.howitwork-card {
+  height: 180px;
+  padding: 2.5rem;
+  background-color: violet;
+}
+
+.howitwork-card-header {
+  display: flex;
+  height: 50%;
+}
+
+.howitwork-card-info {
+  width: 90%;
+}
+
+.howitwork-card-subtitle {
+
+}
+
+.howitwork-card-title {
+
+}
+
+.howitwork-card-icon {
+  width: 10%;
+  aspect-ratio: 1;
+}
+
+.howitwork-card-content {
+
+}
