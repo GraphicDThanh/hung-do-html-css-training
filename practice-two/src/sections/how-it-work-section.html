@@ -1,15 +1,29 @@
 <link rel="stylesheet" href="./asset/styles/sections/how-it-work-section.css">
 <body>
   <section class="howitwork-container container">
-    <h2 class="howitwork-title">Title</h2>
+    <h2 class="howitwork-title">
+      How VanGoux works
+    </h2>
     <div class="howitwork-content">
       <include src="components/howitwork-card.html" locals='{
+        "card_subtitle": "Step 1",
+        "card_title": "Upload Sketch",
+        "card_icon": "asset/images/IconUpload.png",
+        "card_text": "Upload design for your site, landing page or portfolio"
       }'>
       </include>
       <include src="components/howitwork-card.html" locals='{
+        "card_subtitle": "Step 2",
+        "card_title": "Publish website",
+        "card_icon": "asset/images/IconDownload.png",
+        "card_text": "You get a publicly shareable link for your website"
       }'>
       </include>
       <include src="components/howitwork-card.html" locals='{
+        "card_subtitle": "Step 3",
+        "card_title": "Add domain",
+        "card_icon": "asset/images/IconUseCode.png",
+        "card_text": "Host it on a new or existing domain name"
       }'>
       </include>
     </div>
