@@ -1,9 +1,3 @@
-@import url(../base/reset.css);
-@import url(../base/global.css);
-@import url(../base/variables.css);
-
-/* Mobile (Tablet) */
-
 .hero-container {
   display: flex;
   margin-top: 6rem;

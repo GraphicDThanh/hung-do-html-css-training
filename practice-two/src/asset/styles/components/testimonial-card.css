@@ -1,7 +1,3 @@
-@import url(../base/reset.css);
-@import url(../base/global.css);
-@import url(../base/variables.css);
-
 .testimonial-card {
   width: clamp(22.5rem, 100% ,33.75rem);;
   padding: 2.5rem;

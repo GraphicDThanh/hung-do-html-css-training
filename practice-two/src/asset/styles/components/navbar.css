@@ -1,12 +1,11 @@
-@import url(../base/reset.css);
-@import url(../base/global.css);
-@import url(../base/variables.css);
-
-/* Mobile (Tablet)  */
 .navbar {
   margin: 1.875rem 10% auto 10%;
   display: flex;
   align-items: center;
+}
+
+.navbar * {
+  font-family: 'Mulish';
 }
 
 .navbar-brand {
