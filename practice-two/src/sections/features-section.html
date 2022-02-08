@@ -1,5 +1,24 @@
 <body>
   <section class="features-container section-container">
-    Feature section
+    <h2 class="features-title">
+      Section title
+    </h2>
+    <div class="features-content">
+      <include src="components/feature-card.html" locals='{
+        "card_title": "card title",
+        "card_text": "card text"
+      }'>
+      </include>
+      <include src="components/feature-card.html" locals='{
+        "card_title": "card title",
+        "card_text": "card text"
+      }'>
+      </include>
+      <include src="components/feature-card.html" locals='{
+        "card_title": "card title",
+        "card_text": "card text"
+      }'>
+      </include>
+    </div>
   </section>
 </body>

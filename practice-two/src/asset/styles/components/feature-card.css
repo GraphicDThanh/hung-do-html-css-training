@@ -1,0 +1,28 @@
+.feature-card {
+  background-color: aqua;
+  width: 100%;
+  height: 205px;
+}
+
+.feature-card  * {
+  border: 1px solid black;
+}
+
+.feature-card-header {
+  height: 50%;
+  background-color: antiquewhite;
+  display: flex;
+}
+
+.feature-card-img {
+  width: 20%;
+}
+
+.feature-card-title {
+  width: 80%;
+}
+
+.feature-card-content {
+  height: 50%;
+  background-color: bisque;
+}
