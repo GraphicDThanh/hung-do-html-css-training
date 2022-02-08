@@ -1,10 +1,8 @@
 .features-container {
-  background-color: var(--blue-color);
   margin-top: 7.5rem;
 }
 
 .features-title {
-  background-color: red;
 }
 
 .features-content {
