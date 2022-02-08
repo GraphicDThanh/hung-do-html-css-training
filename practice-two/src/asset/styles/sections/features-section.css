@@ -3,3 +3,9 @@
   height: 525px;
   margin-top: 7.5rem;
 }
+
+@media all and (min-width: 768px) and (max-width: 1920px){
+  .features-container {
+    height: 495px;
+  }
+}
