@@ -64,3 +64,16 @@ p {
     left: calc(0rem - var(--padding-left));
   }
 }
+
+/* Dashed line connect */
+
+.dashed-line > div:not(:last-child)::before {
+  content: '';
+  width: var(--columns-gap);
+  height: var(--rows-gap);
+  border-left: 2px dashed #1968FC;
+  border-top: none;
+  position: absolute;
+  bottom: calc(0rem - var(--rows-gap));
+  left: 3.75rem;
+}

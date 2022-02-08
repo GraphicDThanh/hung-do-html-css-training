@@ -1,25 +1,50 @@
 .feature-card {
-  width: 100%;
-  height: 205px;
+  width: clamp(21rem, 100%, 33rem);
+  box-shadow: 0px 20px 60px 0px #3145F41A;
+  background-color: var(--white-color);
+  position: relative;
 }
 
-.feature-card  * {
-  border: 1px solid black;
+.feature-card::after {
+  content: '';
+  width: 1.5625rem;
+  aspect-ratio: 1;
+  background-image: url(../../images/DecorationJuju.png);
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
 }
 
 .feature-card-header {
-  height: 50%;
   display: flex;
+  background-color: var(--milky-white-color);
 }
 
 .feature-card-img {
-  width: 20%;
+  width: 15%;
+}
+
+.feature-card-img img {
+  width: 100%;
+  aspect-ratio: 1;
 }
 
 .feature-card-title {
-  width: 80%;
+  width: 85%;
+  padding: 1.25rem;
+  font-size: 1.25rem;
+  font-weight: var(--font-semi-bold);
+  line-height: calc(40 / 20);
+  color: var(--black-color);
 }
 
 .feature-card-content {
-  height: 50%;
+  padding: 2.5rem 1.875rem;
+}
+
+.feature-card-text {
+  font-size: 1rem;
+  font-weight: var(--font-regular);
+  line-height: calc(30 / 16);
+  color: var(--black-color);
 }
