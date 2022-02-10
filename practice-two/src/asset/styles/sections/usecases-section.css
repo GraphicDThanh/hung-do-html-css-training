@@ -1,5 +1,28 @@
 .usecases-container {
-  height: 520px;
   margin-top: 7.5rem;
   background-color: var(--blue-color);
+}
+
+.usecases-container * {
+  border: 1px solid black;
+}
+
+.usecases-title {
+  width: 100%;
+  height: 60px;
+  background-color: yellow;
+}
+
+.usecases-content {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  justify-content: center;
+}
+
+@media all and (min-width: 1025px) and (max-width: 1920px){
+  .usecases-container {
+    height: 310px;
+  }
 }
