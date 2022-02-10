@@ -1,6 +1,5 @@
 .usecase-card {
-  width: 250px;
-  height: 190px;
+  max-width: 15rem;
   padding: 1.25rem;
   display: flex;
   flex-direction: column;
@@ -14,6 +13,14 @@
   line-height: calc(40 / 20);
   color: var(--blue-color);
   text-transform: uppercase;
+}
+
+.usecase-card-title-mobile {
+  display: inline-block;
+}
+
+.usecase-card-title-desktop {
+  display: none;
 }
 
 .usecase-card-text {
