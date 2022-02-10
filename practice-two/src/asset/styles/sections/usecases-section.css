@@ -2,15 +2,6 @@
   margin-top: 7.5rem;
 }
 
-.usecases-container * {
-  border: 1px solid black;
-}
-
-.usecases-title {
-  width: 100%;
-  height: 60px;
-}
-
 .usecases-content {
   margin-top: 2.5rem;
   display: flex;
