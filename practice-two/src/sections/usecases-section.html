@@ -1,26 +1,38 @@
 <body>
   <section class="usecases-container section-container">
-    <div class="usecases-title">
-      Section title
-    </div>
+    <h2 class="usecases-title">
+      Use cases
+    </h2>
     <div class="usecases-content">
-      <include src="components/usecase-card.html">
-
+      <include src="components/usecase-card.html" locals='{
+        "card_title": "UX engineers",
+        "card_text": "Build MVPs for your web app as fast as you can design"
+      }'>
       </include>
-      <include src="components/usecase-card.html">
-
+      <include src="components/usecase-card.html" locals='{
+        "card_title": "UX designers",
+        "card_text": "Create and share reaslistic prototypes of your website or app"
+      }'>
       </include>
-      <include src="components/usecase-card.html">
-
+      <include src="components/usecase-card.html" locals='{
+        "card_title": "React devs",
+        "card_text": "Auto-generate boilerplate components and design systems"
+      }'>
       </include>
-      <include src="components/usecase-card.html">
-
+      <include src="components/usecase-card.html" locals='{
+        "card_title": "Design agencies",
+        "card_text": "Close more clients by showing them how quickly you can build apps"
+      }'>
       </include>
-      <include src="components/usecase-card.html" >
-
+      <include src="components/usecase-card.html" locals='{
+        "card_title": "Startups",
+        "card_text": "Go to market quickly by spinning up your website and apps"
+      }'>
       </include>
-      <include src="components/usecase-card.html">
-
+      <include src="components/usecase-card.html" locals='{
+        "card_title": "Enterprises",
+        "card_text": "Quickly build design systems for your UX and product teams"
+      }'>
       </include>
     </div>
   </section>

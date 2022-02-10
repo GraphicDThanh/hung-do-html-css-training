@@ -1,19 +1,16 @@
 .usecase-card {
   width: 250px;
   height: 190px;
-  padding: 20px;
-  background-color: blue;
+  padding: 1.25rem;
   display: flex;
   flex-direction: column;
 }
 
 .usecase-card-title {
   height: 25%;
-  background-color: antiquewhite;
 }
 
 .usecase-card-text {
   margin-top: 1.25rem;
   flex-grow: 1;
-  background-color: aquamarine;
 }
