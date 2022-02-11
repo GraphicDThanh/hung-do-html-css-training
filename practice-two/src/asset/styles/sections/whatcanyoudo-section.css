@@ -3,3 +3,9 @@
   background-color: blue;
   margin-top: 7.5rem;
 }
+
+@media all and (min-width: 1025px) and (max-width: 1920px) {
+  .whatcanyoudo-container {
+    height: 20rem;
+  }
+}
