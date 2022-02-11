@@ -1,16 +1,21 @@
 .whatcanyoudo-card {
-  height: 80px;
   width: 33rem;
-  background-color: antiquewhite;
   display: flex;
+  background-color: var(--white-color);
+  box-shadow: 0px 20px 60px 0px #3145F41A;
 }
 
 .whatcanyoudo-card-img {
-  width: 80px;
+  width: 5rem;
+  display: block;
   aspect-ratio: 1;
 }
 
 .whatcanyoudo-card-title {
-  flex: 1;
-  background-color: aquamarine;
+  font-size: 1.125rem;
+  font-weight: var(--font-semi-bold);
+  line-height: calc(40 / 18);
+  color: #000000;
+  padding: 0 1.25rem;
+  align-self: center;
 }

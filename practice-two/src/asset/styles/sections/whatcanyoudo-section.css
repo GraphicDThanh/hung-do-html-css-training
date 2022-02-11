@@ -1,10 +1,5 @@
 .whatcanyoudo-container {
-  background-color: blue;
   margin-top: 7.5rem;
-}
-
-.whatcanyoudo-container * {
-  border: 1px solid black;
 }
 
 .whatcanyoudo-content {
