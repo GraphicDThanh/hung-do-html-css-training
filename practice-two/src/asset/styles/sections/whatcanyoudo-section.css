@@ -1,11 +1,17 @@
 .whatcanyoudo-container {
-  height: 610px;
   background-color: blue;
   margin-top: 7.5rem;
 }
 
+.whatcanyoudo-container * {
+  border: 1px solid black;
+}
+
+.whatcanyoudo-content {
+  margin-top: 3.125rem;
+}
+
 @media all and (min-width: 1025px) and (max-width: 1920px) {
   .whatcanyoudo-container {
-    height: 20rem;
   }
 }

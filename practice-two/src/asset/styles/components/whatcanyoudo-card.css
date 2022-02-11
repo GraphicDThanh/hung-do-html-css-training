@@ -1,0 +1,15 @@
+.whatcanyoudo-card {
+  height: 80px;
+  background-color: antiquewhite;
+  display: flex;
+}
+
+.whatcanyoudo-card-img {
+  width: 80px;
+  aspect-ratio: 1;
+}
+
+.whatcanyoudo-card-title {
+  flex: 1;
+  background-color: aquamarine;
+}
