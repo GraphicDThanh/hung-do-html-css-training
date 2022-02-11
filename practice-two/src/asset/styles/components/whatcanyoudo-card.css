@@ -1,5 +1,6 @@
 .whatcanyoudo-card {
   height: 80px;
+  width: 33rem;
   background-color: antiquewhite;
   display: flex;
 }
