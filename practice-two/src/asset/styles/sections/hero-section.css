@@ -7,6 +7,7 @@
 .hero-jumbotron {
   width: 73%;
   margin-left: 10%;
+  color: var(--black-color);
 }
 
 .hero-jumbotron-desktop {
