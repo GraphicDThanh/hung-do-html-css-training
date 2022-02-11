@@ -1,5 +1,5 @@
 .whatcanyoudo-card {
-  width: 33rem;
+  width: clamp(19rem, 100%, 33.75rem);
   display: flex;
   background-color: var(--white-color);
   box-shadow: 0px 20px 60px 0px #3145F41A;

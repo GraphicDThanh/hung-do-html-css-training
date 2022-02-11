@@ -2,6 +2,13 @@
   margin-top: 7.5rem;
 }
 
+.whatcanyoudo-title-mobile {
+  display: inline-block;
+}
+.whatcanyoudo-title-desktop {
+  display: none;
+}
+
 .whatcanyoudo-content {
   margin-top: 3.125rem;
   display: flex;
@@ -11,6 +18,11 @@
 }
 
 @media all and (min-width: 1025px) and (max-width: 1920px) {
-  .whatcanyoudo-container {
+  .whatcanyoudo-title-mobile {
+    display: none;
+  }
+
+  .whatcanyoudo-title-desktop {
+    display: inline-block;
   }
 }
