@@ -1,6 +1,16 @@
 .article {
+  --padding-left: 3.75rem;
   width: 100%;
-  padding-left: 3.75rem;
+  padding-left: var(--padding-left);
+  position: relative;
+}
+
+.article-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(var(--padding-left) - 1.25rem);
+  aspect-ratio: 40 / 33;
 }
 
 .article-title {
