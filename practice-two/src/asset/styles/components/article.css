@@ -1,6 +1,5 @@
 .article {
   --padding-left: 3.75rem;
-  width: 100%;
   padding-left: var(--padding-left);
   position: relative;
 }

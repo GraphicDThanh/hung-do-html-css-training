@@ -5,13 +5,22 @@
 .ourstory-content {
   margin-top: 3.125rem;
   display: flex;
-  flex-wrap: wrap;
-  gap: 2.5rem 0;
+  flex-direction: column;
+  gap: 2.5rem 11vw;
 }
 
 @media all and (min-width: 1025px) and (max-width: 1920px) {
   .ourstory-container {
     margin-top: 7.5rem;
     height: 420px;
+  }
+
+  .ourstory-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .ourstory-content > * {
+    flex: 1;
   }
 }
