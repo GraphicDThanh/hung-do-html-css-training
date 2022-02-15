@@ -1,0 +1,14 @@
+.article {
+  width: 100%;
+  padding-left: 3.75rem;
+}
+
+.article-title {
+  background-color: red;
+}
+
+.article-content {
+  background-color: green;
+  margin-top: 1.25rem;
+  height: 210px;
+}

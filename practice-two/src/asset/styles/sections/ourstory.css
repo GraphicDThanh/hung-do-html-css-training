@@ -3,3 +3,26 @@
   height: 720px;
   background-color: aqua;
 }
+
+.ourstory-container * {
+  border: 1px solid black;
+}
+
+.ourstory-title {
+  background-color: antiquewhite;
+  height: 60px;
+}
+
+.ourstory-content {
+  margin-top: 3.125rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem 0;
+}
+
+@media all and (min-width: 1025px) and (max-width: 1920px) {
+  .ourstory-container {
+    margin-top: 7.5rem;
+    height: 420px;
+  }
+}
