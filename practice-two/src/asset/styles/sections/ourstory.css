@@ -1,16 +1,5 @@
 .ourstory-container {
   margin-top: 3.75rem;
-  height: 720px;
-  background-color: aqua;
-}
-
-.ourstory-container * {
-  border: 1px solid black;
-}
-
-.ourstory-title {
-  background-color: antiquewhite;
-  height: 60px;
 }
 
 .ourstory-content {

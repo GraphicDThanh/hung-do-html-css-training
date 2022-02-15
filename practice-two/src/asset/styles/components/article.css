@@ -14,11 +14,20 @@
 }
 
 .article-title {
-  background-color: red;
+  font-size: 1.25rem;
+  font-weight: var(--font-semi-bold);
+  line-height: calc(40 / 20);
+  color: #111111;
 }
 
 .article-content {
-  background-color: green;
   margin-top: 1.25rem;
-  height: 210px;
+  font-size: 1rem;
+  font-weight: var(--font-regular);
+  line-height: calc(30 / 16);
+  color: var(--black-color);
+}
+
+.article-content a {
+  color: var(--black-color);
 }

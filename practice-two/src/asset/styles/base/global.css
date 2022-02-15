@@ -27,6 +27,14 @@ p {
   -webkit-box-orient: vertical;
 }
 
+b {
+  font-weight: var(--font-bold);
+}
+
+i {
+  font-style: italic;
+}
+
 /* Section-container */
 
 .section-container {
