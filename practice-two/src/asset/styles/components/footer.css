@@ -3,12 +3,16 @@
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   display: grid;
-  grid-template: 1fr 1fr / 1fr 1fr;
+  grid-template: 1fr 1fr / 2fr 1fr;
   grid-template-areas:
     "brand sns"
     "nav nav";
   gap: 2.5rem;
   position: relative;
+}
+
+.footer * {
+  font-family: 'Mulish';
 }
 
 .footer-brand {
@@ -25,7 +29,6 @@
 .footer-nav {
   grid-area: nav;
   align-self: center;
-  margin-left: 1.1875rem;
 }
 
 .footer-sns {
@@ -39,14 +42,17 @@
 .footer-img {
   position: absolute;
   bottom: 0;
-  right: 9.4%;
+  right: 6.4%;
   width: 8.5%;
-  aspect-ratio: 55 / 60;
+  aspect-ratio: 70 / 60;
   filter: drop-shadow(2px 6px 12px rgba(255, 131, 51, 0.3));
 }
 
 @media all and (min-width: 1025px) and (max-width: 1920px) {
   .footer {
     margin-top: 7.5rem;
+    display: flex;
+    align-items: center;
+    gap: 4.375rem;
   }
 }
