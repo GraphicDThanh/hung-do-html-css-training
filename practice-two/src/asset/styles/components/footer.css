@@ -1,57 +1,52 @@
 .footer {
   margin-top: 3.75rem;
-  height: 220px;
-  background-color: blue;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   display: grid;
   grid-template: 1fr 1fr / 1fr 1fr;
   grid-template-areas:
-  "brand sns"
-  "nav nav";
+    "brand sns"
+    "nav nav";
   gap: 2.5rem;
-}
-
-.footer > * {
-  border: 1px solid black;
+  position: relative;
 }
 
 .footer-brand {
-  width: 250px;
-  height: 50px;
-  background-color: antiquewhite;
-  display: flex;
   grid-area: brand;
+  background-color: #1968FC0D;
 }
 
-.footer-logo {
-  width: 50px;
-  height: 50px;
+.footer-brand .brand-content {
+  font-size: 0.875rem;
+  font-weight: var(--font-semi-bold);
+  line-height: calc(20 / 14);
 }
 
 .footer-nav {
-  width: calc(120 * 4);
-  height: 50px;
-  background-color: aquamarine;
   grid-area: nav;
+  align-self: center;
+  margin-left: 1.1875rem;
 }
 
 .footer-sns {
-  width: 100px;
-  height: 50px;
-  background-color: beige;
-  display: flex;
-  grid-area: sns;
   justify-self: end;
+  display: flex;
+  gap: 2.1875rem;
+  align-items: center;
+  grid-area: sns;
 }
 
-.footer-sns > img {
-  width: 50px;
+.footer-img {
+  position: absolute;
+  bottom: 0;
+  right: 9.4%;
+  width: 8.5%;
+  aspect-ratio: 55 / 60;
+  filter: drop-shadow(2px 6px 12px rgba(255, 131, 51, 0.3));
 }
 
 @media all and (min-width: 1025px) and (max-width: 1920px) {
   .footer {
     margin-top: 7.5rem;
-    height: 130px;
   }
 }
