@@ -1,9 +1,11 @@
 <body>
   <nav class="navbar">
-    <a href="" class="navbar-brand">
-      <img class="navbar-logo" src="./asset/images/Logo.png" alt="Logo">
-      <h1>VanGoux</h1>
-    </a>
+    <div class="navbar-brand">
+      <include src="components/brand.html" locals='{
+        "brand_content": "VanGoux"
+      }'>
+    </include>
+    </div>
     <div class="navbar-action">
       <include src="components/navs.html" locals='{
         "link_1": "How it works",

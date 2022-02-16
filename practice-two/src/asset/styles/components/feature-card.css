@@ -50,7 +50,7 @@
   color: var(--black-color);
 }
 
-@media all and (min-width: 1025px) and (max-width: 1920px) {
+@media all and (min-width: 1024px) and (max-width: 1920px) {
   .feature-card:not(:last-child)::before {
     display: none;
   }

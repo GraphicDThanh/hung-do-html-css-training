@@ -85,3 +85,12 @@ i {
   bottom: calc(0rem - var(--rows-gap));
   left: 3.75rem;
 }
+
+@media all and (min-width: 1024px) and (max-width: 1920px) {
+  .dashed-line > div:not(:last-child)::before {
+    border-top: 2px dashed #1968FC;
+    border-left: none;
+    left: 100%;
+    bottom: calc(50% - var(--padding-card));
+  }
+}

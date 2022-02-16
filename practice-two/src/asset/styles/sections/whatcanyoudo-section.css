@@ -17,7 +17,7 @@
   justify-content: space-around;
 }
 
-@media all and (min-width: 1025px) and (max-width: 1920px) {
+@media all and (min-width: 1024px) and (max-width: 1920px) {
   .whatcanyoudo-title-mobile {
     display: none;
   }

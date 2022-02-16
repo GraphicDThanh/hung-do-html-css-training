@@ -6,10 +6,11 @@
   font-weight: var(--font-bold);
   font-size: 0.875rem;
   line-height: calc(20 / 14);
+  cursor: pointer;
 }
 
 .button--blue {
-  background-color: var(--blue-color);
+  background-color: var(--dark-blue-color);
   color: var(--white-color);
   text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
   box-shadow: 0px 10px 40px 0px #1968FC4D;

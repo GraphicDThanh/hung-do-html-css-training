@@ -5,9 +5,7 @@
     "start": "parcel",
     "build": "parcel build"
   },
-  "dependencies": {
-    "parcel": "^2.0.1"
-  },
+
   "devDependencies": {
     "parcel": "^2.0.1",
     "posthtml-include": "^1.7.2"

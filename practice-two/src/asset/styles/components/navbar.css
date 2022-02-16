@@ -15,22 +15,16 @@
   margin-right: auto;
 }
 
-.navbar-brand h1 {
+.navbar-brand .brand-content {
   font-size: 1.25rem;
   font-weight: var(--font-semi-bold);
   line-height: calc(30 / 20);
-  color: var(--blue-color);
-  margin-left: 1rem;
 }
 
 .navbar-action {
   display: none;
   align-items: center;
-  gap: 1rem 0;
-}
-
-.navbar-button {
-  margin-left: 1rem;
+  gap: 1rem 3.125rem;
 }
 
 /* Responsive in Desktop */
@@ -47,7 +41,7 @@
   }
 }
 
-@media all and (min-width: 1025px) and (max-width: 1920px) {
+@media all and (min-width: 1024px) and (max-width: 1920px) {
   .navbar-action {
     display: flex;
     flex-direction: row;
