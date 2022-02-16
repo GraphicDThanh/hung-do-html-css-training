@@ -1,15 +1,23 @@
 <body>
   <footer class="footer section-container">
-    <a href="#" class="footer-brand">
-      <img src="#" alt="logo" class="footer-logo">
-      <h1>footer</h1>
-    </a>
+    <div class="footer-brand">
+      <include src="components/brand.html" locals='{
+        "brand_content": "Site made with VanGoux"
+      }'>
+      </include>
+    </div>
     <div class="footer-nav">
-      footer nav
+      <include src="components/navs.html" locals='{
+        "link_1": "Contact",
+        "link_2": "Feedback",
+        "link_3": "Join our Slack",
+        "link_4": "Terms"
+      }'>
+      </include>
     </div>
     <div class="footer-sns">
-      <img src="#" alt="facebook">
-      <img src="#" alt="instagram">
+      <img src="./asset/images/IconFacebook.png" alt="facebook">
+      <img src="./asset/images/IconInstagram.png" alt="instagram">
     </div>
   </footer>
 </body>
