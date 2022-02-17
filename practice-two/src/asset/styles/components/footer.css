@@ -20,7 +20,7 @@
   background-color: #1968FC0D;
 }
 
-.footer-brand .brand-content {
+.footer-brand a {
   font-size: 0.875rem;
   font-weight: var(--font-semi-bold);
   line-height: calc(20 / 14);

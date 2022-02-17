@@ -15,7 +15,7 @@
   margin-right: auto;
 }
 
-.navbar-brand .brand-content {
+.navbar-brand a {
   font-size: 1.25rem;
   font-weight: var(--font-semi-bold);
   line-height: calc(30 / 20);
