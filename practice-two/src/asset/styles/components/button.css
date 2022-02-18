@@ -3,23 +3,26 @@
 @import url(../base/variables.css);
 
 .button {
+  white-space: nowrap;
+  font-family: inherit;
   border: none;
   text-transform: uppercase;
   font-weight: var(--font-bold);
   font-size: 0.875rem;
   line-height: calc(20 / 14);
-  text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
-  box-shadow: 0px 10px 40px 0px #1968FC4D;
 }
 
 .button--blue {
   background-color: var(--blue-color);
   color: var(--white-color);
+  text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
+  box-shadow: 0px 10px 40px 0px #1968FC4D;
 }
 
 .button--white {
   background-color: var(--white-color);
   color: var(--blue-color);
+  box-shadow: 4px 4px 20px 0px #FFFFFF66;
 }
 
 .button--small {

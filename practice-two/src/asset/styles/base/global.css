@@ -1,8 +1,13 @@
+@import url(../../fonts/Mulish.css);
+
 :root {
   font-size: 100%;
 }
 
 * {
   box-sizing: border-box;
-  font-family: 'Mulish';
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
 }
