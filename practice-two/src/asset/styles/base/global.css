@@ -21,7 +21,7 @@ h5 {
 }
 
 p {
-  word-break: break-all;
+  /* word-break: break-all; */
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -32,7 +32,7 @@ p {
 /* Section-container */
 
 .section-container {
-  margin: 0 8.5% 0 9.4%;
+  padding: 0 8.5% 0 9.4%;
 }
 
 .section-title {
@@ -57,13 +57,13 @@ p {
 
 @media all and (min-width: 768px) and (max-width: 1920px){
   .section-container {
-    --padding-left: 2.5rem;
-    margin: 0 10.7% 0 8.3%;
-    padding-left: var(--padding-left);
+    --margin-left: 2.5rem;
+    padding: 0 10.7% 0 8.3%;
+    margin-left: var(--margin-left);
   }
 
   .section-title::after {
-    left: calc(0rem - var(--padding-left));
+    left: calc(0rem - var(--margin-left));
   }
 }
 

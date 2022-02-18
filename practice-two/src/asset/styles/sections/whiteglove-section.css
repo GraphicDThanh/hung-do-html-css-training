@@ -1,0 +1,53 @@
+.whiteglove-container {
+  margin-top: 3.75rem;
+  width: 100%;
+  background-color: var(--blue-color);
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+  overflow: hidden;
+}
+
+.whiteglove-jumbotron {
+  color: var(--white-color);
+}
+
+.whiteglove-jumbotron .jumbotron-title {
+  font-size: 1.875rem;
+  line-height: calc(60 / 30);
+  letter-spacing: 0;
+}
+
+.whiteglove-jumbotron .jumbotron-content {
+  margin-top: 3.125rem;
+}
+
+.whiteglove-img {
+  display: none;
+}
+
+@media all and (min-width: 1025px) and (max-width: 1920px) {
+  .whiteglove-container {
+    margin-top: 7.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    position: relative;
+  }
+
+  .whiteglove-jumbotron {
+    width: 60%;
+  }
+
+  .whiteglove-jumbotron .jumbotron-content {
+    margin-top: 3.75rem;
+    max-width: 85%;
+  }
+
+  .whiteglove-img {
+    width: 41.7%;
+    aspect-ratio: calc(599 / 546);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 1.25rem;
+  }
+}
