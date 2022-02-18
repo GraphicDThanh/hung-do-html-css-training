@@ -1,0 +1,12 @@
+.brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-right: auto;
+}
+
+.brand-content {
+  color: var(--blue-color);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
