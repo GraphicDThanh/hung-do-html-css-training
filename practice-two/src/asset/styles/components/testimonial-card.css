@@ -1,7 +1,3 @@
-@import url(../base/reset.css);
-@import url(../base/global.css);
-@import url(../base/variables.css);
-
 .testimonial-card {
   width: clamp(22.5rem, 100% ,33.75rem);;
   padding: 2.5rem;
@@ -11,34 +7,34 @@
   box-shadow: 0px 20px 60px 0px #1968FC1A;
 }
 
-.card-header {
+.testimonial-card-header {
   width: 100%;
   display: flex;
   flex-shrink: 0;
 }
 
-.card-img {
+.testimonial-card-img {
   width: 21.7%;
 }
 
-.card-img img {
+.testimonial-card-img img {
   width: 100%;
   aspect-ratio: 1;
 }
 
-.card-info {
+.testimonial-card-info {
   width: calc(100% - 21.7% - 13%);
   padding: 5% 1.25rem;
 }
 
-.card-name {
+.testimonial-card-name {
   font-size: 1.125rem;
   font-weight: var(--font-semi-bold);
   line-height: calc(30 / 18);
   color: var(--black-color);
 }
 
-.card-position {
+.testimonial-card-position {
   font-size: 0.875rem;
   font-weight: var(--font-semi-bold);
   line-height: calc(30 / 14);
@@ -47,21 +43,21 @@
   opacity: 0.8;
 }
 
-.card-icon {
+.testimonial-card-icon {
   width: 13%;
 }
 
-.card-icon img {
+.testimonial-card-icon img {
   width: 100%;
   aspect-ratio: 60 / 46;
 }
 
-.card-content {
+.testimonial-card-content {
   margin-top: auto;
   flex: 1;
 }
 
-.card-text {
+.testimonial-card-text {
   font-size: 1rem;
   font-weight: var(--font-regular);
   line-height: calc(30 / 16);
