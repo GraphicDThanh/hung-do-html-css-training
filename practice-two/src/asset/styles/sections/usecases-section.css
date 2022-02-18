@@ -1,0 +1,41 @@
+.usecases-container {
+  margin-top: 7.5rem;
+}
+
+.usecases-title-mobile {
+  display: inline-block;
+}
+
+.usecases-title-desktop {
+  display: none;
+}
+
+.usecases-content {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  justify-content: center;
+}
+
+@media all and (min-width: 1025px) and (max-width: 1920px){
+  .usecases-title-mobile {
+    display: none;
+  }
+
+  .usecases-title-desktop {
+    display: inline-block;
+  }
+
+  .usecase-card {
+    max-width: 22.5rem;
+  }
+
+  .usecase-card-title-mobile {
+    display: none;
+  }
+
+  .usecase-card-title-desktop {
+    display: inline-block;
+  }
+}
