@@ -1,0 +1,32 @@
+.features-container {
+  margin-top: 7.5rem;
+}
+
+.features-content {
+  --rows-gap: 3.4375rem;
+  --columns-gap: 5vw;
+  margin-top: 3.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: var(--rows-gap) var(--columns-gap);
+}
+
+@media all and (min-width: 1025px) and (max-width: 1920px){
+  .features-content {
+    flex-wrap: nowrap;
+  }
+
+  .features-content {
+    --margin-top: 2.5rem;
+  }
+
+  .feature-card:nth-child(2) {
+    margin-top: calc(1 * var(--margin-top));
+  }
+
+  .feature-card:nth-child(3) {
+    margin-top: calc(2 * var(--margin-top));
+  }
+}

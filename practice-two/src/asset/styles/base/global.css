@@ -12,11 +12,11 @@
 h3,
 h4,
 h5 {
-  word-break: break-all;
+  /* word-break: break-all; */
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 1;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
 
@@ -65,4 +65,17 @@ p {
   .section-title::after {
     left: calc(0rem - var(--padding-left));
   }
+}
+
+/* Dashed line connect */
+
+.dashed-line > div:not(:last-child)::before {
+  content: '';
+  width: var(--columns-gap);
+  height: var(--rows-gap);
+  border-left: 2px dashed #1968FC;
+  border-top: none;
+  position: absolute;
+  bottom: calc(0rem - var(--rows-gap));
+  left: 3.75rem;
 }
