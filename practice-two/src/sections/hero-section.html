@@ -1,34 +1,30 @@
-<body>
-  <section class="hero-container">
-    <div class="hero-jumbotron">
-      <div class="hero-jumbotron-mobile">
-        <include src="components/jumbotron.html" locals='{
-          "title": "Launch websites directly from Sketch",
-          "content": "Create pixel perfect websites, landing pages & portfolios directly from your Sketch designs",
-          "text_button": "See VanGoux in action",
-          "color_button": "blue",
-          "size_button": "large"
-        }'>
-        </include>
-      </div>
-      <div class="hero-jumbotron-desktop">
-        <include src="components/jumbotron.html" locals='{
-          "title": "Launch beautiful websites directly from Sketch",
-          "content": "Create pixel perfect websites, landing pages & portfolios directly from your Sketch designs",
-          "text_button": "Upload Your Sketch File",
-          "color_button": "blue",
-          "size_button": "large"
-        }'>
-        </include>
-      </div>
+<section class="hero-container">
+  <div class="hero-jumbotron">
+    <div class="hero-jumbotron-mobile">
+      <include src="components/jumbotron.html" locals='{
+        "title": "Launch websites directly from Sketch",
+        "content": "Create pixel perfect websites, landing pages & portfolios directly from your Sketch designs",
+        "text_button": "See VanGoux in action",
+        "color_button": "blue",
+        "size_button": "large"
+      }'>
+      </include>
     </div>
-    <div class="hero-img">
-      <img src="./asset/images/hero-image-2.png" alt="Hero image">
+    <div class="hero-jumbotron-desktop">
+      <include src="components/jumbotron.html" locals='{
+        "title": "Launch beautiful websites directly from Sketch",
+        "content": "Create pixel perfect websites, landing pages & portfolios directly from your Sketch designs",
+        "text_button": "Upload Your Sketch File",
+        "color_button": "blue",
+        "size_button": "large"
+      }'>
+      </include>
     </div>
-    <div class="hero-notify">
-      <p>
-        Please visit our desktop site to upload your Sketch designs
-      </p>
-    </div>
-  </section>
-</body>
+  </div>
+  <img src="./asset/images/hero-image-2.png" alt="Hero image" class="hero-img">
+  <div class="hero-notify">
+    <p>
+      Please visit our desktop site to upload your Sketch designs
+    </p>
+  </div>
+</section>

@@ -15,11 +15,8 @@
 
 .testimonial-card-img {
   width: 21.7%;
-}
-
-.testimonial-card-img img {
-  width: 100%;
   aspect-ratio: 1;
+  align-self: flex-start;
 }
 
 .testimonial-card-info {
@@ -45,11 +42,8 @@
 
 .testimonial-card-icon {
   width: 13%;
-}
-
-.testimonial-card-icon img {
-  width: 100%;
   aspect-ratio: 60 / 46;
+  align-self: flex-start;
 }
 
 .testimonial-card-content {

@@ -1,19 +1,16 @@
-<body>
-  <div class="jumbotron">
-    <h1 class="jumbotron-title {{ title_style }}">
-      {{  title}}
-    </h1>
-    </h1>
-    <p class="jumbotron-content">
-      {{  content }}
-    </p>
-    <div class="jumbotron-button">
-      <include src="components/button.html" locals='{
-        "text": "{{text_button}}",
-        "color": "{{color_button}}",
-        "size": "{{size_button}}"
-      }'>
-      </include>
-    </div>
+<div class="jumbotron">
+  <h2 class="jumbotron-title {{ title_style }}">
+    {{  title}}
+  </h2>
+  <p class="jumbotron-content">
+    {{  content }}
+  </p>
+  <div class="jumbotron-button">
+    <include src="components/button.html" locals='{
+      "text": "{{text_button}}",
+      "color": "{{color_button}}",
+      "size": "{{size_button}}"
+    }'>
+    </include>
   </div>
-</body>
+</div>

@@ -10,30 +10,18 @@
   position: relative;
 }
 
-.howitwork-card:not(:last-child)::before {
-  content: '';
-  width: var(--columns-gap);
-  height: var(--rows-gap);
-  border-left: 2px dashed #1968FC;
-  border-top: none;
-  position: absolute;
-  bottom: calc(0rem - var(--padding-card));
-  left: 3.75rem;
-}
-
 .howitwork-card::after {
   content: '';
   width: 1.5625rem;
   aspect-ratio: 1;
   background-image: url(../../images/DecorationJuju.png);
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: -5px;
+  right: -5px;
 }
 
 .howitwork-card-header {
   display: flex;
-  height: 50%;
   flex-shrink: 0;
 }
 
@@ -60,11 +48,8 @@
 .howitwork-card-icon {
   width: 10%;
   margin: 0 0 auto auto;
-}
-
-.howitwork-card-icon img {
-  width: 100%;
   aspect-ratio: 1;
+  align-self: flex-start;
 }
 
 .howitwork-card-content {
@@ -77,13 +62,4 @@
   font-weight: var(--font-regular);
   line-height: calc(30 / 16);
   color: var(--black-color);
-}
-
-@media all and (min-width: 1025px) and (max-width: 1920px) {
-  .howitwork-card:not(:last-child)::before {
-    border-top: 2px dashed #1968FC;
-    border-left: none;
-    left: 100%;
-    bottom: calc(50% - var(--padding-card));
-  }
 }
