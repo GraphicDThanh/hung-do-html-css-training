@@ -1,0 +1,32 @@
+.article {
+  --padding-left: 3.75rem;
+  padding-left: var(--padding-left);
+  position: relative;
+}
+
+.article-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(var(--padding-left) - 1.25rem);
+  aspect-ratio: 40 / 33;
+}
+
+.article-title {
+  font-size: 1.25rem;
+  font-weight: var(--font-semi-bold);
+  line-height: calc(40 / 20);
+  color: #111111;
+}
+
+.article-content {
+  margin-top: 1.25rem;
+  font-size: 1rem;
+  font-weight: var(--font-regular);
+  line-height: calc(30 / 16);
+  color: var(--black-color);
+}
+
+.article-content a {
+  color: var(--black-color);
+}
