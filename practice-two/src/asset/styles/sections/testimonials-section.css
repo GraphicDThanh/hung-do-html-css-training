@@ -1,0 +1,17 @@
+@import url(../base/reset.css);
+@import url(../base/global.css);
+@import url(../base/variables.css);
+
+.testimonials-container {
+  margin: 5rem 8% 0 8%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2.5rem 0;
+}
+
+@media all and (min-width: 768px) and (max-width: 1920px) {
+  .testimonials-container {
+    margin: 0 10%;
+  }
+}
