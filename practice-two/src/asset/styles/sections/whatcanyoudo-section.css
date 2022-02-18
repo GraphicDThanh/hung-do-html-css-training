@@ -1,0 +1,28 @@
+.whatcanyoudo-container {
+  margin-top: 7.5rem;
+}
+
+.whatcanyoudo-title-mobile {
+  display: inline-block;
+}
+.whatcanyoudo-title-desktop {
+  display: none;
+}
+
+.whatcanyoudo-content {
+  margin-top: 3.125rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+@media all and (min-width: 1025px) and (max-width: 1920px) {
+  .whatcanyoudo-title-mobile {
+    display: none;
+  }
+
+  .whatcanyoudo-title-desktop {
+    display: inline-block;
+  }
+}
