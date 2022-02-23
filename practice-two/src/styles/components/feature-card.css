@@ -1,0 +1,57 @@
+.feature-card {
+  --card-breakpoint: 22rem;
+  /* Value >= 0 when card width equal or less than card breakpoint. Value < 0 when card width greater than card breakpoint */
+  --temp: calc(100% - var(--card-breakpoint));
+  width: clamp(16.25rem, 100%, 33rem);
+  box-shadow: 0px 20px 60px 0px #3145F41A;
+  background-color: var(--white-color);
+  position: relative;
+}
+
+.feature-card::after {
+  content: '';
+  width: 1.5625rem;
+  aspect-ratio: 1;
+  background-image: url(../../assets/images/decoration-juju.png);
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+}
+
+.feature-card-header {
+  width: 100%;
+  display: flex;
+  background-color: var(--milky-white-color);
+}
+
+.feature-card-img {
+  display: block;
+  width: clamp(5rem, var(--temp)*-1000, 7.5rem);
+  aspect-ratio: 1;
+}
+
+.feature-card-title {
+  padding:0 1.25rem;
+  font-size: 1.25rem;
+  font-weight: var(--font-semi-bold);
+  line-height: clamp(calc(40 / 20), var(--temp)*1000 , calc(30 / 20));
+  color: var(--black-color);
+  align-self: center;
+}
+
+.feature-card-content {
+  padding: 2.5rem 1.875rem;
+}
+
+.feature-card-text {
+  font-size: 1rem;
+  font-weight: var(--font-regular);
+  line-height: calc(30 / 16);
+  color: var(--black-color);
+}
+
+@media all and (min-width: 1024px) and (max-width: 1920px) {
+  .feature-card:not(:last-child)::before {
+    display: none;
+  }
+}
