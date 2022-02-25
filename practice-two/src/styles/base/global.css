@@ -1,43 +1,10 @@
-:root {
-  font-size: 100%;
-}
-
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  font-family: 'Mulish', sans-serif;
 }
 
-/* h1,h2,h3,h4,h5 { */
-  /* word-break: break-all; */
-  /* overflow: hidden; */
-  /* text-overflow: ellipsis; */
-  /* display: -webkit-box; */
-  /* -webkit-line-clamp: 3; */
-  /* -webkit-box-orient: vertical; */
-/* } */
-
-p {
-  /* word-break: break-all; */
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 10;
-  -webkit-box-orient: vertical;
-}
-
-b {
-  font-weight: var(--font-bold);
-}
-
-i {
-  font-style: italic;
-}
-
-/* Section-container */
-
-.section-container {
-  padding: 0 8.5% 0 9.4%;
-}
+/* Section-title */
 
 .section-title {
   font-size: 1.875rem;
@@ -59,15 +26,9 @@ i {
   left: 0;
 }
 
-@media all and (min-width: 768px) and (max-width: 1920px){
-  .section-container {
-    --margin-left: 2.5rem;
-    padding: 0 10.7% 0 8.3%;
-    margin-left: var(--margin-left);
-  }
-
+@media all and (min-width: 768px) {
   .section-title::after {
-    left: calc(0rem - var(--margin-left));
+    left: -2.5rem;
   }
 }
 
@@ -84,7 +45,7 @@ i {
   left: 3.75rem;
 }
 
-@media all and (min-width: 1024px) and (max-width: 1920px) {
+@media all and (min-width: 1024px) {
   .dashed-line > div:not(:last-child)::before {
     border-top: 2px dashed #1968FC;
     border-left: none;

@@ -1,4 +1,4 @@
-.can-do-container {
+.can-do {
   margin-top: 7.5rem;
 }
 
@@ -17,7 +17,7 @@
   align-items: center;
 }
 
-@media all and (min-width: 1024px) and (max-width: 1920px) {
+@media all and (min-width: 1024px) {
   .can-do-title-mobile {
     display: none;
   }
