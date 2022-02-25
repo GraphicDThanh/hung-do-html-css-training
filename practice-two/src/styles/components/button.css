@@ -9,6 +9,10 @@
   cursor: pointer;
 }
 
+.button:hover {
+  filter: brightness(85%);
+}
+
 .button--blue {
   background-color: var(--dark-blue-color);
   color: var(--white-color);
