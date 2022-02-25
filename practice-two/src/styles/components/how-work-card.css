@@ -1,4 +1,4 @@
-.howitwork-card {
+.how-work-card {
   --padding-card: 2.5rem;
   width: clamp(21rem, 100%, 33rem);
   padding: var(--padding-card);
@@ -10,7 +10,7 @@
   position: relative;
 }
 
-.howitwork-card::after {
+.how-work-card::after {
   content: '';
   width: 1.5625rem;
   aspect-ratio: 1;
@@ -20,16 +20,16 @@
   right: -5px;
 }
 
-.howitwork-card-header {
+.how-work-card-header {
   display: flex;
   flex-shrink: 0;
 }
 
-.howitwork-card-info {
+.how-work-card-info {
   width: 90%;
 }
 
-.howitwork-card-subtitle {
+.how-work-card-subtitle {
   font-size: 0.75rem;
   font-weight: var(--font-bold);
   line-height: calc(20 / 12);
@@ -37,7 +37,7 @@
   color: var(--black-color);
 }
 
-.howitwork-card-title {
+.how-work-card-title {
   font-size: 1.125rem;
   font-weight: var(--font-bold);
   line-height: calc(40 / 18);
@@ -45,19 +45,19 @@
   color: var(--blue-color);
 }
 
-.howitwork-card-icon {
+.how-work-card-icon {
   width: 10%;
   margin: 0 0 auto auto;
   aspect-ratio: 1;
   align-self: flex-start;
 }
 
-.howitwork-card-content {
+.how-work-card-content {
   margin-top: auto;
   flex: 1;
 }
 
-.howitwork-card-text {
+.how-work-card-text {
   font-size: 1rem;
   font-weight: var(--font-regular);
   line-height: calc(30 / 16);

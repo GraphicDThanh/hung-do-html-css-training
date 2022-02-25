@@ -1,10 +1,10 @@
 @import url(article.css);
 @import url(brand.css);
 @import url(button.css);
-@import url(feature-card.css);
-@import url(howitwork-card.css);
+@import url(features-card.css);
+@import url(how-work-card.css);
 @import url(jumbotron.css);
 @import url(nav.css);
-@import url(testimonial-card.css);
-@import url(usecase-card.css);
-@import url(whatcanyoudo-card.css);
+@import url(testimonials-card.css);
+@import url(use-cases-card.css);
+@import url(can-do-card.css);

@@ -1,4 +1,4 @@
-.whiteglove-container {
+.white-glove-container {
   margin-top: 3.75rem;
   background-color: var(--blue-color);
   padding-top: 3.75rem;
@@ -6,42 +6,42 @@
   overflow: hidden;
 }
 
-.whiteglove-jumbotron {
+.white-glove-jumbotron {
   color: var(--white-color);
 }
 
-.whiteglove-jumbotron .jumbotron-title {
+.white-glove-jumbotron .jumbotron-title {
   font-size: 1.875rem;
   line-height: calc(60 / 30);
   letter-spacing: 0;
 }
 
-.whiteglove-jumbotron .jumbotron-content {
+.white-glove-jumbotron .jumbotron-content {
   margin-top: 3.125rem;
 }
 
-.whiteglove-img {
+.white-glove-img {
   display: none;
 }
 
 @media all and (min-width: 1024px) and (max-width: 1920px) {
-  .whiteglove-container {
+  .white-glove-container {
     margin-top: 7.5rem;
     position: relative;
     margin-left: 0;
     padding: 5rem 10.7% 5rem calc(8.3% + 2.5rem);
   }
 
-  .whiteglove-jumbotron {
+  .white-glove-jumbotron {
     width: 60%;
   }
 
-  .whiteglove-jumbotron .jumbotron-content {
+  .white-glove-jumbotron .jumbotron-content {
     margin-top: 3.75rem;
     max-width: 85%;
   }
 
-  .whiteglove-img {
+  .white-glove-img {
     width: 41.7%;
     aspect-ratio: calc(599 / 546);
     display: block;
