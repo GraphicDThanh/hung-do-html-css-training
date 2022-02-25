@@ -1,4 +1,4 @@
-.white-glove-container {
+.white-glove {
   margin-top: 3.75rem;
   background-color: var(--blue-color);
   padding-top: 3.75rem;
@@ -24,12 +24,10 @@
   display: none;
 }
 
-@media all and (min-width: 1024px) and (max-width: 1920px) {
-  .white-glove-container {
+@media all and (min-width: 1024px) {
+  .white-glove {
     margin-top: 7.5rem;
     position: relative;
-    margin-left: 0;
-    padding: 5rem 10.7% 5rem calc(8.3% + 2.5rem);
   }
 
   .white-glove-jumbotron {

@@ -1,4 +1,4 @@
-.features-container {
+.features {
   margin-top: 7.5rem;
 }
 
@@ -13,7 +13,7 @@
   gap: var(--rows-gap) var(--columns-gap);
 }
 
-@media all and (min-width: 1024px) and (max-width: 1920px){
+@media all and (min-width: 1024px) {
   .features-content {
     flex-wrap: nowrap;
   }
