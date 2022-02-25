@@ -1,16 +1,16 @@
-.usecases-container {
+.use-cases-container {
   margin-top: 7.5rem;
 }
 
-.usecases-title-mobile {
+.use-cases-title-mobile {
   display: inline-block;
 }
 
-.usecases-title-desktop {
+.use-cases-title-desktop {
   display: none;
 }
 
-.usecases-content {
+.use-cases-content {
   margin-top: 2.5rem;
   display: flex;
   flex-wrap: wrap;
@@ -19,23 +19,23 @@
 }
 
 @media all and (min-width: 1024px) and (max-width: 1920px){
-  .usecases-title-mobile {
+  .use-cases-title-mobile {
     display: none;
   }
 
-  .usecases-title-desktop {
+  .use-cases-title-desktop {
     display: inline-block;
   }
 
-  .usecase-card {
+  .use-cases-card {
     max-width: 22.5rem;
   }
 
-  .usecase-card-title-mobile {
+  .use-cases-card-title-mobile {
     display: none;
   }
 
-  .usecase-card-title-desktop {
+  .use-cases-card-title-desktop {
     display: inline-block;
   }
 }

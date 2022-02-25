@@ -1,15 +1,15 @@
-.whatcanyoudo-container {
+.can-do-container {
   margin-top: 7.5rem;
 }
 
-.whatcanyoudo-title-mobile {
+.can-do-title-mobile {
   display: inline-block;
 }
-.whatcanyoudo-title-desktop {
+.can-do-title-desktop {
   display: none;
 }
 
-.whatcanyoudo-content {
+.can-do-content {
   margin-top: 3.125rem;
   display: flex;
   flex-direction: column;
@@ -18,15 +18,15 @@
 }
 
 @media all and (min-width: 1024px) and (max-width: 1920px) {
-  .whatcanyoudo-title-mobile {
+  .can-do-title-mobile {
     display: none;
   }
 
-  .whatcanyoudo-title-desktop {
+  .can-do-title-desktop {
     display: inline-block;
   }
 
-  .whatcanyoudo-content {
+  .can-do-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2.5rem 3vw;

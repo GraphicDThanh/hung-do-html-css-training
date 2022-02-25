@@ -22,11 +22,11 @@
     --margin-top: 2.5rem;
   }
 
-  .feature-card:nth-child(2) {
+  .features-card:nth-child(2) {
     margin-top: calc(1 * var(--margin-top));
   }
 
-  .feature-card:nth-child(3) {
+  .features-card:nth-child(3) {
     margin-top: calc(2 * var(--margin-top));
   }
 }

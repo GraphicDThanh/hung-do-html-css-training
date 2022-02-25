@@ -1,8 +1,8 @@
-.ourstory-container {
+.story-container {
   margin-top: 3.75rem;
 }
 
-.ourstory-content {
+.story-content {
   margin-top: 3.125rem;
   display: flex;
   flex-direction: column;
@@ -10,16 +10,16 @@
 }
 
 @media all and (min-width: 1024px) and (max-width: 1920px) {
-  .ourstory-container {
+  .story-container {
     margin-top: 7.5rem;
   }
 
-  .ourstory-content {
+  .story-content {
     flex-direction: row;
     justify-content: space-between;
   }
 
-  .ourstory-content > * {
+  .story-content > * {
     flex: 1;
   }
 }
