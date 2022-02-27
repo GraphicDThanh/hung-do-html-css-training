@@ -1,5 +1,5 @@
 .can-do-card {
-  width: clamp(19rem, 100%, 33.75rem);
+  width: clamp(13.4rem, 100%, 33.75rem);
   display: flex;
   background-color: var(--white-color);
   box-shadow: 0px 20px 60px 0px #3145F41A;
@@ -9,6 +9,7 @@
   width: 5rem;
   display: block;
   aspect-ratio: 1;
+  align-self: flex-start;
 }
 
 .can-do-card-title {

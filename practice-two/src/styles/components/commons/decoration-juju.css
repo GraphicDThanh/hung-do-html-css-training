@@ -1,0 +1,35 @@
+.decoration-juju {
+  position: absolute;
+  width: 1.5625rem;
+  aspect-ratio: 1;
+  bottom: -0.3125rem;
+  right: -0.3125rem;
+}
+
+.layout {
+  position: absolute;
+  aspect-ratio: 1;
+}
+
+.layout-1 {
+  background-color: #E8EDFE;
+  width: 1.25rem;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.layout-2 {
+  background-color: #154BF8;
+  width: 0.625rem;
+  bottom: 0;
+  right: 0;
+}
+
+.layout-3 {
+  background-color: #BFCAEE;
+  width: 0.9375rem;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+}
