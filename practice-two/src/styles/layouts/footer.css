@@ -18,6 +18,7 @@
 
 .footer-brand {
   grid-area: brand;
+  width: max-content;
   background-color: #1968FC0D;
 }
 
