@@ -2,13 +2,13 @@
   <div class="container">
     <nav class="navbar">
       <h1 class="navbar-brand">
-        <include src="components/brand.html" locals='{
+        <include src="components/commons/brand.html" locals='{
           "brand_content": "VanGoux"
         }'>
         </include>
       </h1>
       <div class="navbar-action">
-        <include src="components/navs.html" locals='{
+        <include src="components/commons/navs.html" locals='{
           "link_1": "How it works",
           "link_2": "Features",
           "link_3": "Use cases",
@@ -16,7 +16,7 @@
         }'>
         </include>
         <div class="navbar-button">
-          <include src="components/button.html" locals='{
+          <include src="components/commons/button.html" locals='{
             "text": "upload sketch",
             "color": "blue",
             "size": "small"
@@ -28,7 +28,7 @@
     <section class="hero">
       <div class="hero-jumbotron">
         <div class="hero-jumbotron-mobile">
-          <include src="components/jumbotron.html" locals='{
+          <include src="components/commons/jumbotron.html" locals='{
             "title": "Launch websites directly from Sketch",
             "content": "Create pixel perfect websites, landing pages & portfolios directly from your Sketch designs",
             "text_button": "See VanGoux in action",
@@ -38,7 +38,7 @@
           </include>
         </div>
         <div class="hero-jumbotron-desktop">
-          <include src="components/jumbotron.html" locals='{
+          <include src="components/commons/jumbotron.html" locals='{
             "title": "Launch beautiful websites directly from Sketch",
             "content": "Create pixel perfect websites, landing pages & portfolios directly from your Sketch designs",
             "text_button": "Upload Your Sketch File",
