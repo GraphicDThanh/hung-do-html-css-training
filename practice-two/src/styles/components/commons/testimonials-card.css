@@ -1,5 +1,5 @@
 .testimonials-card {
-  width: clamp(22.5rem, 100% ,33.75rem);;
+  width: clamp(13.4rem, 100% ,33.75rem);;
   padding: 2.5rem;
   display: flex;
   flex-flow: column;

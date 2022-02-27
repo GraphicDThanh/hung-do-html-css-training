@@ -12,10 +12,15 @@
 
 .use-cases-content {
   margin-top: 2.5rem;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 1.25rem;
-  justify-content: space-between;
+}
+
+@media all and  (min-width: 640px) {
+  .use-cases-content {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media all and (min-width: 1024px) {
@@ -27,8 +32,8 @@
     display: inline-block;
   }
 
-  .use-cases-card {
-    max-width: 22.5rem;
+  .use-cases-content {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .use-cases-card-title-mobile {

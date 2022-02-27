@@ -2,18 +2,9 @@
   padding-top: 2.5rem;
 }
 
-.header .container {
-  padding: 0;
-}
-
 .navbar {
   display: flex;
   align-items: center;
-  padding: 0 5rem;
-}
-
-.navbar * {
-  font-family: 'Mulish';
 }
 
 .navbar-brand {
@@ -38,7 +29,7 @@
 }
 
 .hero-jumbotron {
-  padding: 0 8.125rem 0 5rem;
+  padding: 0 3.125rem;
   color: var(--black-color);
 }
 
@@ -73,7 +64,7 @@
   text-align: center;
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 768px) {
   .navbar-brand {
     align-self: flex-start;
   }
@@ -83,14 +74,6 @@
     flex-direction: column;
     align-items: flex-end;
     gap: 1rem 1.25rem;
-  }
-
-  .nav-item:not(:last-child) {
-    width: 7.5rem;
-  }
-
-  .nav-item:last-child {
-    width: 11.25rem;
   }
 
   .hero-jumbotron-desktop {
@@ -111,32 +94,28 @@
     padding-top: 1.875rem;
   }
 
-  .header .container {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
   .navbar {
     padding: 0;
   }
 
   .navbar-action {
-    display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 1rem 1.25rem;
   }
 
-  .nav-item:not(:last-child) {
+  .navbar-action .nav-item:not(:last-child) {
     width: 7.5rem;
   }
 
-  .nav-item:last-child {
+  .navbar-action .nav-item:last-child {
     width: 11.25rem;
   }
 
   .hero {
-    margin-top: 9.0625rem;
+    max-width: 1220px;
+    margin: 9.0625rem auto 0 auto;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
     position: relative;
   }
 
@@ -152,17 +131,5 @@
     margin-left: auto;
     margin-top: 3.125rem;
     padding: 0;
-  }
-
-  .hero-jumbotron-mobile {
-    display: none;
-  }
-
-  .hero-jumbotron-desktop {
-    display: block;
-  }
-
-  .hero-notify {
-    display: none;
   }
 }
