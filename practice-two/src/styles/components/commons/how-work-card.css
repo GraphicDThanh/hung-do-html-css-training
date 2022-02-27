@@ -1,6 +1,6 @@
 .how-work-card {
   --padding-card: 2.5rem;
-  width: clamp(21rem, 100%, 33rem);
+  width: clamp(13.4rem, 100%, 33rem);
   padding: var(--padding-card);
   background-color: var(--white-color);
   display: flex;
@@ -8,16 +8,6 @@
   gap: 0.625rem 0;
   box-shadow: 0px 20px 60px 0px #3145F41A;
   position: relative;
-}
-
-.how-work-card::after {
-  content: '';
-  width: 1.5625rem;
-  aspect-ratio: 1;
-  background-image: url(../../../assets/images/decoration-juju.png);
-  position: absolute;
-  bottom: -5px;
-  right: -5px;
 }
 
 .how-work-card-header {
