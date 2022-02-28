@@ -11,6 +11,10 @@
 }
 
 @media all and (min-width: 1024px) {
+  .testimonials {
+    margin-top: 0;
+  }
+
   .testimonials-container {
     flex-direction: row;
   }
