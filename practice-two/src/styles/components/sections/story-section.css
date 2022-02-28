@@ -6,7 +6,7 @@
   margin-top: 3.125rem;
   display: flex;
   flex-direction: column;
-  gap: 2.5rem 11vw;
+  gap: 2.5rem 9.375rem;
 }
 
 @media all and (min-width: 1024px) {

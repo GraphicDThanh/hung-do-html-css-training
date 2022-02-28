@@ -29,11 +29,8 @@
   align-self: center;
 }
 
-.features-card-content {
-  padding: 2.5rem 1.875rem;
-}
-
 .features-card-text {
+  padding: 2.5rem 1.875rem;
   font-size: 1rem;
   font-weight: var(--font-regular);
   line-height: calc(30 / 16);

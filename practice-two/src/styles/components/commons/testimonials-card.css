@@ -10,7 +10,6 @@
 .testimonials-card-header {
   width: 100%;
   display: flex;
-  flex-shrink: 0;
 }
 
 .testimonials-card-img {
@@ -44,11 +43,6 @@
   width: 13%;
   aspect-ratio: 60 / 46;
   align-self: flex-start;
-}
-
-.testimonials-card-content {
-  margin-top: auto;
-  flex: 1;
 }
 
 .testimonials-card-text {

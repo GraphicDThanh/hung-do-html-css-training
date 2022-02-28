@@ -7,7 +7,7 @@
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   display: grid;
-  grid-template: 1fr 1fr / 2fr 1fr;
+  grid-template: auto auto / auto auto;
   grid-template-areas:
     "brand sns"
     "nav nav";
@@ -18,7 +18,8 @@
 
 .footer-brand {
   grid-area: brand;
-  width: max-content;
+  height: fit-content;
+  width: fit-content;
   background-color: #1968FC0D;
 }
 
@@ -38,11 +39,11 @@
 }
 
 .footer-sns {
-  justify-self: end;
   display: flex;
   gap: 2.1875rem;
   align-items: center;
   grid-area: sns;
+  justify-self: end;
 }
 
 .footer-img {
