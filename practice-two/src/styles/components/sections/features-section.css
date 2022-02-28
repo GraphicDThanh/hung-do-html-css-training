@@ -4,7 +4,7 @@
 
 .features-content {
   --rows-gap: 3.4375rem;
-  --columns-gap: 5vw;
+  --columns-gap: 4.6875rem;
   margin-top: 3.75rem;
   display: flex;
   flex-wrap: wrap;
