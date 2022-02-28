@@ -10,12 +10,13 @@
 ### Information:
   - Timeline:
     - Estimate time: 8 days.
-    - Actual time: 8 days.
+    - Actual time: 9 days.
   - Techniques: HTML5/ CSS3/ Responsive (apply mobile-first)
   - Editor: Visual Studio Code
   - Supported browser:
       - Chrome ( Latest version )
-      - Other modern browsers (Chrome, Firefox, MS Edge, Opera, Safari)
+      - Other modern browsers (Chrome, Firefox, MS Edge, Opera)
+  - Folder structure following 7-1 pattern
 
 ### Development environment:
   - Node: version 14.0.0
