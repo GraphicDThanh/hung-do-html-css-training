@@ -10,7 +10,7 @@
   row-gap: 3.125rem;
 }
 
-@media all and (min-width: 1024px) {
+@media (min-width: 1024px) {
   .testimonials {
     margin-top: 0;
   }

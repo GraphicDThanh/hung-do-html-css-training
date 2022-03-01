@@ -9,7 +9,7 @@
   gap: 2.5rem 9.375rem;
 }
 
-@media all and (min-width: 1024px) {
+@media (min-width: 1024px) {
   .story {
     margin-top: 7.5rem;
   }
