@@ -24,7 +24,7 @@
   display: none;
 }
 
-@media all and (min-width: 1024px) {
+@media (min-width: 1024px) {
   .white-glove {
     margin-top: 7.5rem;
     position: relative;

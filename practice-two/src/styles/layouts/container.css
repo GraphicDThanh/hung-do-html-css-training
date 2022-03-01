@@ -6,7 +6,7 @@
   padding-right: 3.125rem;
 }
 
-@media all and (min-width: 1024px) {
+@media (min-width: 1024px) {
   .container {
     max-width: 1220px;
   }
