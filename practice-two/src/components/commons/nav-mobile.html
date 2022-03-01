@@ -1,0 +1,21 @@
+<div class="navbar-mobile">
+	<input type="checkbox" class="navbar-mobile-toggle" id="navbar-mobile-toggle">
+	<label for="navbar-mobile-toggle" class="navbar-mobile-toggle-open">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+	</label>
+	<div class="navbar-mobile-overlay">
+		<label for="navbar-mobile-toggle" class="navbar-mobile-toggle-close">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+		</label>
+		<include src="components/commons/navs.html" locals='{
+      "link_1": "How it works",
+      "link_2": "Features",
+      "link_3": "Use cases",
+      "link_4": "Schedule a demo"
+    }'>
+    </include>
+	</div>
+</div>
