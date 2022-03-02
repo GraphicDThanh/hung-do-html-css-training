@@ -4,6 +4,7 @@
 
 .nav-item {
   position: relative;
+  z-index: 100;
 }
 
 .nav-link {
@@ -17,7 +18,6 @@
   color: var(--black);
   white-space: nowrap;
   transition: all 0.5s ease-in-out;
-  z-index: 100;
 }
 
 .nav-link::after {
