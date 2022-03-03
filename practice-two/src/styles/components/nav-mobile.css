@@ -9,7 +9,7 @@
   cursor: pointer;
 }
 
-.bar1, .bar2, .bar3 {
+.bar {
   width: 2.1875rem;
   height: 0.3125rem;
   background-color: var(--blue-color);
@@ -45,11 +45,11 @@
   cursor: pointer;
 }
 
-.navbar-mobile-toggle-close .bar1 {
+.forward-slash {
   transform: rotate(-45deg) translate(-0.5625rem, 0.375rem);
 }
 
-.navbar-mobile-toggle-close .bar2 {
+.backslash {
   transform: rotate(45deg) translate(-0.0625rem, 0rem);
 }
 
