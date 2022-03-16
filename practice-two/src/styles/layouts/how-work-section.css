@@ -1,0 +1,29 @@
+.how-work {
+  margin-top: 7.5rem ;
+}
+
+.how-work-content {
+  --columns-gap: 4.6875rem;
+  --rows-gap: 2.5rem;
+  margin-top: 3.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: var(--rows-gap) var(--columns-gap);
+  align-items: flex-start;
+}
+
+@media (min-width: 1024px) {
+  .how-work-content {
+    flex-wrap: nowrap;
+    --margin-top: 2.5rem;
+  }
+
+  .how-work-card:nth-child(2) {
+    margin-top: calc(1 * var(--margin-top));
+  }
+
+  .how-work-card:nth-child(3) {
+    margin-top: calc(2 * var(--margin-top));
+  }
+}

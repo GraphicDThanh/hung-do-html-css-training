@@ -1,0 +1,37 @@
+.button {
+  white-space: nowrap;
+  font-family: inherit;
+  border: none;
+  text-transform: uppercase;
+  font-weight: var(--font-bold);
+  font-size: 0.875rem;
+  line-height: calc(20 / 14);
+  padding: 1rem 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.button:hover {
+  filter: brightness(85%);
+}
+
+.button-blue {
+  background-color: var(--dark-blue-color);
+  color: var(--white-color);
+  text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
+  box-shadow: 0px 10px 40px 0px #1968FC4D;
+}
+
+.button-white {
+  background-color: var(--white-color);
+  color: var(--blue-color);
+  box-shadow: 4px 4px 20px 0px #FFFFFF66;
+}
+
+.button-small {
+  max-width: 11.25rem;
+}
+
+.button-large {
+  max-width: 18.75rem;
+}

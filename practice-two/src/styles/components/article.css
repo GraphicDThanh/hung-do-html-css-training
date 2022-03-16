@@ -1,0 +1,36 @@
+.article {
+  display: grid;
+  grid-template: auto auto / auto auto;
+  grid-template-areas:
+    "icon title"
+    "icon content";
+  column-gap: 1.25rem;
+}
+
+.article-icon {
+  align-self: flex-start;
+  width: 2.5rem;
+  aspect-ratio: 40 / 33;
+  grid-area: icon;
+}
+
+.article-title {
+  font-size: 1.25rem;
+  font-weight: var(--font-semi-bold);
+  line-height: calc(40 / 20);
+  color: #111111;
+  grid-area: title;
+}
+
+.article-content {
+  margin-top: 1.25rem;
+  font-size: 1rem;
+  font-weight: var(--font-regular);
+  line-height: calc(30 / 16);
+  color: var(--black-color);
+  grid-area: content;
+}
+
+.article-content a {
+  color: var(--black-color);
+}

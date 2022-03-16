@@ -1,0 +1,46 @@
+.use-cases {
+  margin-top: 7.5rem;
+}
+
+.use-cases-title-mobile {
+  display: inline-block;
+}
+
+.use-cases-title-desktop {
+  display: none;
+}
+
+.use-cases-content {
+  margin-top: 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .use-cases-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .use-cases-title-mobile {
+    display: none;
+  }
+
+  .use-cases-title-desktop {
+    display: inline-block;
+  }
+
+  .use-cases-content {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .use-cases-card-title-mobile {
+    display: none;
+  }
+
+  .use-cases-card-title-desktop {
+    display: inline-block;
+  }
+}

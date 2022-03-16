@@ -1,0 +1,35 @@
+.brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-right: auto;
+  color: var(--blue-color);
+  padding-right: 1rem;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  z-index: 100;
+}
+
+.brand-logo {
+  margin-right: 1rem;
+}
+
+.brand::after {
+  content: "";
+  background-color: var(--blue-color);
+  width: 0;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: all 0.5s ease-in-out;
+  z-index: -100;
+}
+
+.brand:hover {
+  color: var(--white-color);
+}
+
+.brand:hover::after {
+  width: 100%;
+}

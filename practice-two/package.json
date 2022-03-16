@@ -1,0 +1,13 @@
+{
+  "name": "my-project",
+  "source": "src/pages/home.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+
+  "devDependencies": {
+    "parcel": "^2.0.1",
+    "posthtml-include": "^1.7.2"
+  }
+}

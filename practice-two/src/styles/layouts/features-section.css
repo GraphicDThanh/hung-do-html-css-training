@@ -1,0 +1,32 @@
+.features {
+  margin-top: 7.5rem;
+}
+
+.features-content {
+  --rows-gap: 3.4375rem;
+  --columns-gap: 4.6875rem;
+  margin-top: 3.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: var(--rows-gap) var(--columns-gap);
+}
+
+@media (min-width: 1024px) {
+  .features-content {
+    flex-wrap: nowrap;
+  }
+
+  .features-content {
+    --margin-top: 2.5rem;
+  }
+
+  .features-card:nth-child(2) {
+    margin-top: calc(1 * var(--margin-top));
+  }
+
+  .features-card:nth-child(3) {
+    margin-top: calc(2 * var(--margin-top));
+  }
+}

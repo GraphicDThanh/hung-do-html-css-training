@@ -1,0 +1,34 @@
+.can-do {
+  margin-top: 7.5rem;
+}
+
+.can-do-title-mobile {
+  display: inline-block;
+}
+.can-do-title-desktop {
+  display: none;
+}
+
+.can-do-content {
+  margin-top: 3.125rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .can-do-title-mobile {
+    display: none;
+  }
+
+  .can-do-title-desktop {
+    display: inline-block;
+  }
+
+  .can-do-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem 3vw;
+  }
+}
